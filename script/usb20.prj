@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "usb20.dtd">
+<PRJ>
+  <Project_Information>
+    <Use_Relative_Dir>1</Use_Relative_Dir>
+    <Relative_to_Project_File>1</Relative_to_Project_File>
+    <Include_Sub_Dir>1</Include_Sub_Dir>
+    <Create_Tagfile>0</Create_Tagfile>
+    <Filter/>
+    <CTags_Support>0</CTags_Support>
+    <Word_File/>
+    <Project_Directory>/opt/workspace/chengyee.wong/PROJECTS/usb20/script</Project_Directory>
+    <Tag_File/>
+  </Project_Information>
+  <Project_ID>
+    <Signature>UE Proj: v.1</Signature>
+  </Project_ID>
+  <Files>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbdevice/</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/flist/</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbhost/</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/tb/</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/</File>
+  </Files>
+  <Group_Filter>
+    <OF Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbdevice/">*.*</OF>
+    <OF Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/flist/">*.*</OF>
+    <OF Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbhost/">*.*</OF>
+    <OF Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/tb/">*.*</OF>
+    <OF Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/">*.*</OF>
+  </Group_Filter>
+</PRJ>

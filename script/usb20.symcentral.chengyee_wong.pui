@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "usb20.symcentral.chengyee_wong.dtd">
+<PRJ>
+  <Folder Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbdevice/">
+    <Expand>1</Expand>
+  </Folder>
+  <Project_Information>
+    <Working_Time>-6413103875035</Working_Time>
+    <Project_Start>230000000F0000001400000007000000090000007300000003000000170100000000000000000000807000000000000000EEE21100000000B5</Project_Start>
+  </Project_Information>
+  <Folder Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/flist/">
+    <Expand>1</Expand>
+  </Folder>
+  <Folder Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbhost/">
+    <Expand>1</Expand>
+  </Folder>
+  <Active_Settings>
+    <Active_File_Display_Mode>-1</Active_File_Display_Mode>
+  </Active_Settings>
+  <Open_Files>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/wb_master/wb_master_model.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbdevice/usbf_crc16.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_ep_rf.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_top.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_crc16.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_defines.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_mem_arb.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_rf.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_pe.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_pl.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_wb_master.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbhost/registers.md</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_ctrl.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/tb/usbf_top_tb.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_rom.v</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/run/result.log</File>
+    <File>/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/usbf_pd.v</File>
+  </Open_Files>
+  <Folder Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/tb/">
+    <Expand>1</Expand>
+  </Folder>
+  <Folder Name="/opt/workspace/chengyee.wong/PROJECTS/usb20/rtl/usbcore/">
+    <Expand>1</Expand>
+  </Folder>
+</PRJ>

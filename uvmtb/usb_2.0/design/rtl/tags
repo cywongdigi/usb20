@@ -1,0 +1,902 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+ACK	usbf_pe.v	/^parameter	ACK   = 0,$/;"	P
+DataIn	usbf_utmi_if.v	/^input	[7:0]	DataIn;$/;"	p
+DataIn_pad_i	usbf_top.v	/^input	[7:0]	DataIn_pad_i;$/;"	p
+DataOut	usbf_utmi_if.v	/^output	[7:0]	DataOut;$/;"	p
+DataOut	usbf_utmi_if.v	/^reg	[7:0]	DataOut;$/;"	r
+DataOut_pad_o	usbf_top.v	/^output	[7:0]	DataOut_pad_o;$/;"	p
+IN_ep	usbf_pe.v	/^wire		IN_ep, OUT_ep, CTRL_ep;		\/\/ Endpoint Types$/;"	w
+LineState	usbf_utmi_if.v	/^input	[1:0]	LineState;$/;"	p
+LineState	usbf_utmi_ls.v	/^input	[1:0]	LineState;$/;"	p
+LineState_pad_i	usbf_top.v	/^input	[1:0]	LineState_pad_i;$/;"	p
+LineState_r	usbf_top.v	/^reg	[1:0]	LineState_r;	\/\/ Added to make a full synchronizer$/;"	r
+OpMode	usbf_utmi_if.v	/^output	[1:0]	OpMode;$/;"	p
+OpMode	usbf_utmi_ls.v	/^output	[1:0]	OpMode;$/;"	p
+OpMode	usbf_utmi_ls.v	/^reg	[1:0]	OpMode;$/;"	r
+OpMode_pad_o	usbf_top.v	/^output	[1:0]	OpMode_pad_o;$/;"	p
+RxActive	usbf_utmi_if.v	/^input		RxActive;$/;"	p
+RxActive_pad_i	usbf_top.v	/^input		RxActive_pad_i;$/;"	p
+RxError	usbf_utmi_if.v	/^input		RxError;$/;"	p
+RxError_pad_i	usbf_top.v	/^input		RxError_pad_i;$/;"	p
+RxValid	usbf_utmi_if.v	/^input		RxValid;$/;"	p
+RxValid_pad_i	usbf_top.v	/^input		RxValid_pad_i;$/;"	p
+SSRAM_HADR	usbf_idma.v	/^parameter	SSRAM_HADR = 14;$/;"	P
+SSRAM_HADR	usbf_mem_arb.v	/^parameter	SSRAM_HADR = 14;$/;"	P
+SSRAM_HADR	usbf_pe.v	/^parameter	SSRAM_HADR = 14;$/;"	P
+SSRAM_HADR	usbf_pl.v	/^parameter	SSRAM_HADR = 14;$/;"	P
+SSRAM_HADR	usbf_top.v	/^parameter	SSRAM_HADR = `USBF_SSRAM_HADR;$/;"	P
+SuspendM	usbf_utmi_if.v	/^output		SuspendM;$/;"	p
+SuspendM	usbf_utmi_ls.v	/^output		SuspendM;$/;"	p
+SuspendM_pad_o	usbf_top.v	/^output		SuspendM_pad_o;$/;"	p
+T1_gt_2_5_uS	usbf_utmi_ls.v	/^reg		T1_gt_2_5_uS, T1_st_3_0_mS, T1_gt_3_0_mS;$/;"	r
+T1_gt_3_125_mS	usbf_utmi_ls.v	/^reg		T1_gt_3_125_mS, T1_gt_5_0_mS;$/;"	r
+T2_gt_100_uS	usbf_utmi_ls.v	/^reg		T2_gt_100_uS, T2_wakeup, T2_gt_1_0_mS, T2_gt_1_2_mS;$/;"	r
+TermSel	usbf_utmi_if.v	/^output		TermSel;$/;"	p
+TermSel	usbf_utmi_ls.v	/^output		TermSel;$/;"	p
+TermSel	usbf_utmi_ls.v	/^reg		TermSel, fs_term_on, fs_term_off;$/;"	r
+TermSel_pad_o	usbf_top.v	/^output		TermSel_pad_o;$/;"	p
+TxReady	usbf_utmi_if.v	/^input		TxReady;$/;"	p
+TxReady_pad_i	usbf_top.v	/^input		TxReady_pad_i;$/;"	p
+TxValid	usbf_utmi_if.v	/^output		TxValid;$/;"	p
+TxValid	usbf_utmi_if.v	/^reg		TxValid;$/;"	r
+TxValid_pad_o	usbf_top.v	/^output		TxValid_pad_o;$/;"	p
+USBF_DEBUG	usbf_defines.v	/^`define USBF_DEBUG$/;"	P
+USBF_HAVE_EP1	usbf_defines.v	/^		`define	USBF_HAVE_EP1	1$/;"	P
+USBF_HAVE_EP2	usbf_defines.v	/^		`define	USBF_HAVE_EP2	1$/;"	P
+USBF_HAVE_EP3	usbf_defines.v	/^		`define	USBF_HAVE_EP3	1$/;"	P
+USBF_HMS_DEL	usbf_defines.v	/^`define USBF_HMS_DEL		5'h1c$/;"	P
+USBF_MEM_SEL	usbf_defines.v	/^		`define USBF_MEM_SEL	(wb_addr_i[12])$/;"	P
+USBF_MEM_SEL	usbf_defines.v	/^		`define USBF_MEM_SEL	(wb_addr_i[17])$/;"	P
+USBF_RF_SEL	usbf_defines.v	/^		`define USBF_RF_SEL	(!wb_addr_i[12])$/;"	P
+USBF_RF_SEL	usbf_defines.v	/^		`define USBF_RF_SEL	(!wb_addr_i[17])$/;"	P
+USBF_RX_ACK_TO_VAL_FS	usbf_defines.v	/^`define USBF_RX_ACK_TO_VAL_FS	8'd36$/;"	P
+USBF_RX_ACK_TO_VAL_HS	usbf_defines.v	/^`define USBF_RX_ACK_TO_VAL_HS	8'd22$/;"	P
+USBF_SSRAM_HADR	usbf_defines.v	/^		`define USBF_SSRAM_HADR	14$/;"	P
+USBF_SSRAM_HADR	usbf_defines.v	/^		`define USBF_SSRAM_HADR	9$/;"	P
+USBF_T1_C_2_5_US	usbf_defines.v	/^`define	USBF_T1_C_2_5_US	8'd10$/;"	P
+USBF_T1_C_3_0_MS	usbf_defines.v	/^`define USBF_T1_C_3_0_MS	8'd48$/;"	P
+USBF_T1_C_3_125_MS	usbf_defines.v	/^`define USBF_T1_C_3_125_MS	8'd50$/;"	P
+USBF_T1_C_5_MS	usbf_defines.v	/^`define USBF_T1_C_5_MS		8'd80$/;"	P
+USBF_T1_C_62_5_US	usbf_defines.v	/^`define USBF_T1_C_62_5_US	8'd250$/;"	P
+USBF_T1_PS_250_NS	usbf_defines.v	/^`define	USBF_T1_PS_250_NS	4'd13$/;"	P
+USBF_T2_C_0_5_MS	usbf_defines.v	/^`define	USBF_T2_C_0_5_MS	8'd200$/;"	P
+USBF_T2_C_100_MS	usbf_defines.v	/^`define USBF_T2_C_100_MS	8'd200$/;"	P
+USBF_T2_C_100_US	usbf_defines.v	/^`define USBF_T2_C_100_US	8'd40$/;"	P
+USBF_T2_C_1_0_MS	usbf_defines.v	/^`define USBF_T2_C_1_0_MS	8'd2$/;"	P
+USBF_T2_C_1_2_MS	usbf_defines.v	/^`define USBF_T2_C_1_2_MS	8'd2$/;"	P
+USBF_T2_C_2_5_US	usbf_defines.v	/^`define	USBF_T2_C_2_5_US	8'd148$/;"	P
+USBF_T2_C_WAKEUP	usbf_defines.v	/^`define USBF_T2_C_WAKEUP	8'd10$/;"	P
+USBF_TEST_IMPL	usbf_defines.v	/^`define USBF_TEST_IMPL$/;"	P
+USBF_TX_DATA_TO_VAL_FS	usbf_defines.v	/^`define USBF_TX_DATA_TO_VAL_FS	8'd36$/;"	P
+USBF_TX_DATA_TO_VAL_HS	usbf_defines.v	/^`define USBF_TX_DATA_TO_VAL_HS	8'd22$/;"	P
+USBF_T_PID_ACK	usbf_defines.v	/^`define USBF_T_PID_ACK		4'b0010$/;"	P
+USBF_T_PID_DATA0	usbf_defines.v	/^`define USBF_T_PID_DATA0	4'b0011$/;"	P
+USBF_T_PID_DATA1	usbf_defines.v	/^`define USBF_T_PID_DATA1	4'b1011$/;"	P
+USBF_T_PID_DATA2	usbf_defines.v	/^`define USBF_T_PID_DATA2	4'b0111$/;"	P
+USBF_T_PID_ERR	usbf_defines.v	/^`define USBF_T_PID_ERR		4'b1100$/;"	P
+USBF_T_PID_IN	usbf_defines.v	/^`define USBF_T_PID_IN		4'b1001$/;"	P
+USBF_T_PID_MDATA	usbf_defines.v	/^`define USBF_T_PID_MDATA	4'b1111$/;"	P
+USBF_T_PID_NACK	usbf_defines.v	/^`define USBF_T_PID_NACK		4'b1010$/;"	P
+USBF_T_PID_NYET	usbf_defines.v	/^`define USBF_T_PID_NYET		4'b0110$/;"	P
+USBF_T_PID_OUT	usbf_defines.v	/^`define USBF_T_PID_OUT		4'b0001$/;"	P
+USBF_T_PID_PING	usbf_defines.v	/^`define USBF_T_PID_PING		4'b0100$/;"	P
+USBF_T_PID_PRE	usbf_defines.v	/^`define USBF_T_PID_PRE		4'b1100$/;"	P
+USBF_T_PID_RES	usbf_defines.v	/^`define USBF_T_PID_RES		4'b0000$/;"	P
+USBF_T_PID_SETUP	usbf_defines.v	/^`define USBF_T_PID_SETUP	4'b1101$/;"	P
+USBF_T_PID_SOF	usbf_defines.v	/^`define USBF_T_PID_SOF		4'b0101$/;"	P
+USBF_T_PID_SPLIT	usbf_defines.v	/^`define USBF_T_PID_SPLIT	4'b1000$/;"	P
+USBF_T_PID_STALL	usbf_defines.v	/^`define USBF_T_PID_STALL	4'b1110$/;"	P
+USBF_UFC_HADR	usbf_defines.v	/^		`define USBF_UFC_HADR	12$/;"	P
+USBF_UFC_HADR	usbf_defines.v	/^		`define USBF_UFC_HADR	17$/;"	P
+VControl_Load_pad_o	usbf_top.v	/^output		VControl_Load_pad_o;$/;"	p
+VControl_pad_o	usbf_top.v	/^output	[3:0]	VControl_pad_o;$/;"	p
+VStatus_pad_i	usbf_top.v	/^input	[7:0]	VStatus_pad_i;$/;"	p
+VStatus_r	usbf_top.v	/^reg	[7:0]	VStatus_r;	\/\/ Added to make a full synchronizer$/;"	r
+XcvSelect	usbf_utmi_if.v	/^output		XcvSelect;$/;"	p
+XcvSelect	usbf_utmi_ls.v	/^output		XcvSelect;$/;"	p
+XcvSelect	usbf_utmi_ls.v	/^reg		XcvSelect, xcv_set_hs, xcv_set_fs;$/;"	r
+XcvSelect_pad_o	usbf_top.v	/^output		XcvSelect_pad_o;$/;"	p
+abort	usbf_idma.v	/^input		abort;		\/\/ Abort Transfer (time_out, crc_err or rx_error)$/;"	p
+abort	usbf_pe.v	/^output		abort;		\/\/ Abort Transfer (time_out, crc_err or rx_error)$/;"	p
+abort	usbf_pe.v	/^reg		abort;$/;"	r
+abort	usbf_pl.v	/^wire		abort;		\/\/ Abort Transfer (time_out, crc_err or rx_error)$/;"	w
+adr	usbf_ep_rf.v	/^input	[1:0]	adr;$/;"	p
+adr	usbf_ep_rf_dummy.v	/^input	[1:0]	adr;$/;"	p
+adr	usbf_idma.v	/^input	[SSRAM_HADR + 2:0]	adr;	\/\/ Byte Address$/;"	p
+adr	usbf_pe.v	/^output	[SSRAM_HADR + 2:0]	adr;		\/\/ Byte Address$/;"	p
+adr	usbf_pe.v	/^reg	[SSRAM_HADR + 2:0]	adr;$/;"	r
+adr	usbf_pl.v	/^wire	[SSRAM_HADR + 2:0]	adr;		\/\/ Byte Address$/;"	w
+adr	usbf_rf.v	/^input	[6:0]	adr;$/;"	p
+adr_cb	usbf_idma.v	/^reg	[2:0]	adr_cb;			\/\/ Internal byte address counter$/;"	r
+adr_cw	usbf_idma.v	/^reg	[SSRAM_HADR:0]	adr_cw;		\/\/ Internal word address counter$/;"	r
+adr_incb	usbf_idma.v	/^wire		adr_incb;$/;"	w
+adr_incw	usbf_idma.v	/^wire		adr_incw;$/;"	w
+adr_r	usbf_pe.v	/^reg	[SSRAM_HADR + 2:0]	adr_r;$/;"	r
+adrb_is_3	usbf_idma.v	/^wire		adrb_is_3;$/;"	w
+adrb_next	usbf_idma.v	/^reg	[2:0]	adrb_next;		\/\/ next byte address$/;"	r
+adrw_next	usbf_idma.v	/^reg	[SSRAM_HADR:0]	adrw_next;	\/\/ next address$/;"	r
+adrw_next1	usbf_idma.v	/^reg	[SSRAM_HADR:0]	adrw_next1;	\/\/ next address (after overrun check)$/;"	r
+allow_pid	usbf_pe.v	/^reg	[1:0]	allow_pid;$/;"	r
+attach	usbf_rf.v	/^wire		attach, deattach;$/;"	w
+attach_r	usbf_rf.v	/^reg		attach_r, attach_r1;$/;"	r
+attached	usbf_rf.v	/^input		attached;$/;"	p
+bit_stuff_on	usbf_utmi_ls.v	/^reg		bit_stuff_on, bit_stuff_off;$/;"	r
+buf0	usbf_ep_rf.v	/^output	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	p
+buf0	usbf_ep_rf.v	/^reg	[31:0]	buf0;$/;"	r
+buf0	usbf_ep_rf_dummy.v	/^output	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	p
+buf0	usbf_pe.v	/^input	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	p
+buf0	usbf_pl.v	/^input	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	p
+buf0	usbf_rf.v	/^output	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	p
+buf0	usbf_rf.v	/^reg	[31:0]	buf0;$/;"	r
+buf0	usbf_top.v	/^wire	[31:0]	buf0;		\/\/ Internal Buf 0 Output$/;"	w
+buf0_adr	usbf_pe.v	/^wire	[SSRAM_HADR + 2:0]	buf0_adr, buf1_adr;$/;"	w
+buf0_na	usbf_pe.v	/^reg		buf0_na, buf1_na;$/;"	r
+buf0_not_aloc	usbf_pe.v	/^reg		buf0_not_aloc, buf1_not_aloc;$/;"	r
+buf0_orig	usbf_ep_rf.v	/^reg	[31:0]	buf0_orig;$/;"	r
+buf0_orig_m3	usbf_ep_rf.v	/^reg	[11:0]	buf0_orig_m3;$/;"	r
+buf0_rl	usbf_ep_rf.v	/^input		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	p
+buf0_rl	usbf_ep_rf_dummy.v	/^input		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	p
+buf0_rl	usbf_pe.v	/^output		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	p
+buf0_rl	usbf_pe.v	/^reg		buf0_rl;$/;"	r
+buf0_rl	usbf_pl.v	/^output		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	p
+buf0_rl	usbf_rf.v	/^input		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	p
+buf0_rl	usbf_top.v	/^wire		buf0_rl;	\/\/ Reload Buf 0 with original values$/;"	w
+buf0_rl_d	usbf_pe.v	/^reg		buf0_rl_d;$/;"	r
+buf0_set	usbf_ep_rf.v	/^input		buf0_set;	\/\/ Write to buf 0$/;"	p
+buf0_set	usbf_ep_rf_dummy.v	/^input		buf0_set;	\/\/ Write to buf 0$/;"	p
+buf0_set	usbf_pe.v	/^output		buf0_set;	\/\/ Write to buf 0$/;"	p
+buf0_set	usbf_pe.v	/^reg		buf0_set, buf1_set;$/;"	r
+buf0_set	usbf_pl.v	/^output		buf0_set;	\/\/ Write to buf 0$/;"	p
+buf0_set	usbf_rf.v	/^input		buf0_set;	\/\/ Write to buf 0$/;"	p
+buf0_set	usbf_top.v	/^wire		buf0_set;	\/\/ Write to buf 0$/;"	w
+buf0_st_max	usbf_pe.v	/^reg		buf0_st_max;$/;"	r
+buf0_sz	usbf_pe.v	/^wire	[13:0]	buf0_sz, buf1_sz;$/;"	w
+buf1	usbf_ep_rf.v	/^output	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	p
+buf1	usbf_ep_rf.v	/^reg	[31:0]	buf1;$/;"	r
+buf1	usbf_ep_rf_dummy.v	/^output	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	p
+buf1	usbf_pe.v	/^input	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	p
+buf1	usbf_pl.v	/^input	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	p
+buf1	usbf_rf.v	/^output	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	p
+buf1	usbf_rf.v	/^reg	[31:0]	buf1;$/;"	r
+buf1	usbf_top.v	/^wire	[31:0]	buf1;		\/\/ Internal Buf 1 Output$/;"	w
+buf1_set	usbf_ep_rf.v	/^input		buf1_set;	\/\/ Write to buf 1$/;"	p
+buf1_set	usbf_ep_rf_dummy.v	/^input		buf1_set;	\/\/ Write to buf 1$/;"	p
+buf1_set	usbf_pe.v	/^output		buf1_set;	\/\/ Write to buf 1$/;"	p
+buf1_set	usbf_pl.v	/^output		buf1_set;	\/\/ Write to buf 1$/;"	p
+buf1_set	usbf_rf.v	/^input		buf1_set;	\/\/ Write to buf 1$/;"	p
+buf1_set	usbf_top.v	/^wire		buf1_set;	\/\/ Write to buf 1$/;"	w
+buf1_st_max	usbf_pe.v	/^reg		buf1_st_max;$/;"	r
+buf_sel	usbf_pe.v	/^wire		buf_sel;$/;"	w
+buf_set_d	usbf_pe.v	/^reg		buf_set_d;$/;"	r
+buf_size	usbf_idma.v	/^input	[13:0]	buf_size;	\/\/ Actual buffer size$/;"	p
+buf_size	usbf_pe.v	/^output	[13:0]	buf_size;	\/\/ Actual buffer size$/;"	p
+buf_size	usbf_pl.v	/^wire	[13:0]	buf_size;	\/\/ Actual buffer size$/;"	w
+buf_smaller	usbf_pe.v	/^wire		buf_smaller;$/;"	w
+buffer_done	usbf_pe.v	/^reg		buffer_done;$/;"	r
+buffer_empty	usbf_pe.v	/^reg		buffer_empty;$/;"	r
+buffer_full	usbf_pe.v	/^reg		buffer_full;$/;"	r
+buffer_overflow	usbf_pe.v	/^reg		buffer_overflow;$/;"	r
+chirp_cnt	usbf_utmi_ls.v	/^reg	[2:0]	chirp_cnt;$/;"	r
+chirp_cnt_clr	usbf_utmi_ls.v	/^reg		chirp_cnt_clr, chirp_cnt_inc;$/;"	r
+chirp_cnt_is_6	usbf_utmi_ls.v	/^reg		chirp_cnt_is_6;$/;"	r
+clk	usbf_ep_rf.v	/^input		clk, wclk, rst;$/;"	p
+clk	usbf_ep_rf_dummy.v	/^input		clk, wclk, rst;$/;"	p
+clk	usbf_idma.v	/^input		clk, rst;$/;"	p
+clk	usbf_pa.v	/^input		clk, rst;$/;"	p
+clk	usbf_pd.v	/^input		clk, rst;$/;"	p
+clk	usbf_pe.v	/^input		clk, rst;$/;"	p
+clk	usbf_pl.v	/^input		clk, rst;$/;"	p
+clk	usbf_pl.v	/^wire		clk, rst;$/;"	w
+clk	usbf_rf.v	/^input		clk, wclk, rst;$/;"	p
+clk	usbf_utmi_ls.v	/^input		clk;$/;"	p
+clk_i	usbf_top.v	/^input		clk_i;$/;"	p
+clr_sof_time	usbf_pl.v	/^reg		clr_sof_time;$/;"	r
+crc16	usbf_pa.v	/^reg	[15:0]	crc16;$/;"	r
+crc16_add	usbf_pa.v	/^wire		crc16_add;$/;"	w
+crc16_clr	usbf_pa.v	/^wire		crc16_clr;$/;"	w
+crc16_clr	usbf_pd.v	/^wire		crc16_clr;$/;"	w
+crc16_err	usbf_pd.v	/^output		crc16_err;		\/\/ Data packet CRC 16 error$/;"	p
+crc16_err	usbf_pe.v	/^input		crc16_err;		\/\/ Data packet CRC 16 error$/;"	p
+crc16_err	usbf_pl.v	/^wire		crc16_err;$/;"	w
+crc16_next	usbf_pa.v	/^wire	[15:0]	crc16_next;$/;"	w
+crc16_out	usbf_pd.v	/^wire	[15:0]	crc16_out;$/;"	w
+crc16_rev	usbf_pa.v	/^wire	[15:0]	crc16_rev;$/;"	w
+crc16_sum	usbf_pd.v	/^reg	[15:0]	crc16_sum;$/;"	r
+crc5_err	usbf_pd.v	/^output		crc5_err;		\/\/ Token crc5 error$/;"	p
+crc5_err	usbf_pe.v	/^input		crc5_err;		\/\/ Token crc5 error$/;"	p
+crc5_err	usbf_pl.v	/^output		crc5_err;	\/\/ crc5 error$/;"	p
+crc5_err	usbf_pl.v	/^wire		crc5_err;$/;"	w
+crc5_err	usbf_rf.v	/^input		crc5_err;$/;"	p
+crc5_err	usbf_top.v	/^wire		crc5_err;	\/\/ CRC5 Error$/;"	w
+crc5_err_r	usbf_rf.v	/^reg		crc5_err_r;$/;"	r
+crc5_out	usbf_pd.v	/^wire	[4:0]	crc5_out;$/;"	w
+crc5_out2	usbf_pd.v	/^wire	[4:0]	crc5_out2;$/;"	w
+crc_in	usbf_crc16.v	/^input	[15:0]	crc_in;$/;"	p
+crc_in	usbf_crc5.v	/^input	[4:0]	crc_in;$/;"	p
+crc_out	usbf_crc16.v	/^output	[15:0]	crc_out;$/;"	p
+crc_out	usbf_crc5.v	/^output	[4:0]	crc_out;$/;"	p
+crc_sel1	usbf_pa.v	/^reg		crc_sel1, crc_sel2;$/;"	r
+csr	usbf_ep_rf.v	/^output	[31:0]	csr;		\/\/ Internal CSR Output$/;"	p
+csr	usbf_ep_rf.v	/^wire	[31:0]	csr;$/;"	w
+csr	usbf_ep_rf_dummy.v	/^output	[31:0]	csr;		\/\/ Internal CSR Output$/;"	p
+csr	usbf_pe.v	/^input	[31:0]	csr;		\/\/ Internal CSR Output$/;"	p
+csr	usbf_pl.v	/^input	[31:0]	csr;		\/\/ Internal CSR Output$/;"	p
+csr	usbf_rf.v	/^output	[31:0]	csr;		\/\/ Internal CSR Output$/;"	p
+csr	usbf_rf.v	/^reg	[31:0]	csr;$/;"	r
+csr	usbf_top.v	/^wire	[31:0]	csr;		\/\/ Internal CSR Output$/;"	w
+csr0	usbf_ep_rf.v	/^reg	[12:0]	csr0;$/;"	r
+csr1	usbf_ep_rf.v	/^reg	[12:0]	csr1;$/;"	r
+d0	usbf_pd.v	/^reg	[7:0]	d0, d1, d2;		\/\/ Data path delay line (used to filter out crcs)$/;"	r
+data_done	usbf_pd.v	/^reg		data_done;		\/\/ Data cycle complete output from State Machine$/;"	r
+data_pid_sel	usbf_pa.v	/^input	[1:0]	data_pid_sel;$/;"	p
+data_pid_sel	usbf_pe.v	/^output	[1:0]	data_pid_sel;$/;"	p
+data_pid_sel	usbf_pl.v	/^wire	[1:0]	data_pid_sel;$/;"	w
+data_valid0	usbf_pd.v	/^reg		data_valid0; 		\/\/ Data valid delay line$/;"	r
+data_valid_d	usbf_pd.v	/^reg		data_valid_d;		\/\/ Data Valid output from State Machine$/;"	r
+din	usbf_crc16.v	/^input	[7:0]	din;$/;"	p
+din	usbf_crc5.v	/^input	[10:0]	din;$/;"	p
+din	usbf_ep_rf.v	/^input	[31:0]	din;$/;"	p
+din	usbf_ep_rf_dummy.v	/^input	[31:0]	din;$/;"	p
+din	usbf_rf.v	/^input	[31:0]	din;$/;"	p
+dma_ack	usbf_ep_rf.v	/^input		dma_ack;$/;"	p
+dma_ack	usbf_ep_rf_dummy.v	/^input		dma_ack;$/;"	p
+dma_ack	usbf_rf.v	/^input	[15:0]	dma_ack;$/;"	p
+dma_ack_clr1	usbf_ep_rf.v	/^reg	dma_ack_clr1;$/;"	r
+dma_ack_i	usbf_ep_rf.v	/^wire		dma_ack_i;$/;"	w
+dma_ack_i	usbf_top.v	/^input	[15:0]	dma_ack_i;$/;"	p
+dma_ack_wr1	usbf_ep_rf.v	/^reg	dma_ack_wr1;$/;"	r
+dma_en	usbf_ep_rf.v	/^wire		dma_en;$/;"	w
+dma_en	usbf_idma.v	/^input		dma_en;		\/\/ External DMA enabled$/;"	p
+dma_en	usbf_pe.v	/^output		dma_en;		\/\/ USB external DMA mode enabled$/;"	p
+dma_en	usbf_pl.v	/^wire		dma_en;		\/\/ external dma enabled$/;"	w
+dma_in_buf_sz1	usbf_ep_rf.v	/^output		dma_in_buf_sz1;	\/\/ Indicates that the DMA IN buffer has 1 max_pl_sz$/;"	p
+dma_in_buf_sz1	usbf_ep_rf.v	/^reg		dma_in_buf_sz1;$/;"	r
+dma_in_buf_sz1	usbf_ep_rf_dummy.v	/^output		dma_in_buf_sz1;	\/\/ Indicates that the DMA IN buffer has 1 max_pl_sz$/;"	p
+dma_in_buf_sz1	usbf_pe.v	/^input		dma_in_buf_sz1, dma_out_buf_avail;$/;"	p
+dma_in_buf_sz1	usbf_pl.v	/^input		dma_in_buf_sz1;$/;"	p
+dma_in_buf_sz1	usbf_rf.v	/^output		dma_in_buf_sz1, dma_out_buf_avail;$/;"	p
+dma_in_buf_sz1	usbf_rf.v	/^reg		dma_in_buf_sz1;$/;"	r
+dma_in_buf_sz1	usbf_top.v	/^wire		dma_in_buf_sz1;$/;"	w
+dma_in_cnt	usbf_ep_rf.v	/^reg	[11:0]	dma_in_cnt;$/;"	r
+dma_out_buf_avail	usbf_ep_rf.v	/^output		dma_out_buf_avail;\/\/ Indicates that there is space for at least$/;"	p
+dma_out_buf_avail	usbf_ep_rf.v	/^reg		dma_out_buf_avail;$/;"	r
+dma_out_buf_avail	usbf_ep_rf_dummy.v	/^output		dma_out_buf_avail;\/\/ Indicates that there is space for at least$/;"	p
+dma_out_buf_avail	usbf_pl.v	/^input		dma_out_buf_avail;$/;"	p
+dma_out_buf_avail	usbf_rf.v	/^reg		dma_out_buf_avail;$/;"	r
+dma_out_buf_avail	usbf_top.v	/^wire		dma_out_buf_avail;$/;"	w
+dma_out_cnt	usbf_ep_rf.v	/^reg	[11:0]	dma_out_cnt;$/;"	r
+dma_out_cnt_is_zero	usbf_ep_rf.v	/^wire		dma_out_cnt_is_zero;$/;"	w
+dma_out_left	usbf_ep_rf.v	/^reg	[11:0]	dma_out_left;$/;"	r
+dma_req	usbf_ep_rf.v	/^output		dma_req;$/;"	p
+dma_req	usbf_ep_rf_dummy.v	/^output		dma_req;$/;"	p
+dma_req	usbf_rf.v	/^output	[15:0]	dma_req;$/;"	p
+dma_req_d	usbf_ep_rf.v	/^wire		dma_req_d;$/;"	w
+dma_req_hold	usbf_ep_rf.v	/^wire		dma_req_hold;$/;"	w
+dma_req_in_d	usbf_ep_rf.v	/^wire		dma_req_in_d;$/;"	w
+dma_req_in_hold2	usbf_ep_rf.v	/^reg	dma_req_in_hold2;$/;"	r
+dma_req_o	usbf_top.v	/^output	[15:0]	dma_req_o;$/;"	p
+dma_req_out_d	usbf_ep_rf.v	/^wire		dma_req_out_d;$/;"	w
+dma_req_out_hold	usbf_ep_rf.v	/^reg		dma_req_out_hold, dma_req_in_hold ;$/;"	r
+dma_req_r	usbf_ep_rf.v	/^reg		dma_req_r;$/;"	r
+dout	usbf_ep_rf.v	/^output	[31:0]	dout;$/;"	p
+dout	usbf_ep_rf.v	/^reg	[31:0]	dout;$/;"	r
+dout	usbf_ep_rf_dummy.v	/^output	[31:0]	dout;$/;"	p
+dout	usbf_rf.v	/^output	[31:0]	dout;$/;"	p
+dout	usbf_rf.v	/^reg	[31:0]	dout;$/;"	r
+dout_r	usbf_idma.v	/^reg	[31:0]	dout_r;			\/\/ Data output register$/;"	r
+drive_k	usbf_utmi_if.v	/^wire		drive_k;$/;"	w
+drive_k	usbf_utmi_ls.v	/^output		drive_k;$/;"	p
+drive_k	usbf_utmi_ls.v	/^reg		drive_k, drive_k_d;$/;"	r
+drive_k_r	usbf_utmi_if.v	/^reg		drive_k_r;$/;"	r
+dsel	usbf_pa.v	/^reg		dsel;$/;"	r
+dtmp	usbf_rf.v	/^reg	[31:0]	dtmp;$/;"	r
+dtmp_r	usbf_idma.v	/^reg	[31:0]	dtmp_r;			\/\/ Temp data assembly register$/;"	r
+dtmp_sel	usbf_idma.v	/^reg		dtmp_sel;		\/\/ Selects tmp data register for pre-fetch$/;"	r
+dtmp_sel_r	usbf_idma.v	/^reg		dtmp_sel_r;$/;"	r
+ep0_buf0	usbf_rf.v	/^wire	[31:0]	ep0_buf0, ep1_buf0, ep2_buf0, ep3_buf0;$/;"	w
+ep0_buf1	usbf_rf.v	/^wire	[31:0]	ep0_buf1, ep1_buf1, ep2_buf1, ep3_buf1;$/;"	w
+ep0_csr	usbf_rf.v	/^wire	[31:0]	ep0_csr, ep1_csr, ep2_csr, ep3_csr;$/;"	w
+ep0_dma_in_buf_sz1	usbf_rf.v	/^wire		ep0_dma_in_buf_sz1, ep1_dma_in_buf_sz1;$/;"	w
+ep0_dma_out_buf_avail	usbf_rf.v	/^wire		ep0_dma_out_buf_avail, ep1_dma_out_buf_avail;$/;"	w
+ep0_dout	usbf_rf.v	/^wire	[31:0]	ep0_dout, ep1_dout, ep2_dout, ep3_dout;$/;"	w
+ep0_inta	usbf_rf.v	/^wire		ep0_inta, ep1_inta, ep2_inta, ep3_inta;$/;"	w
+ep0_intb	usbf_rf.v	/^wire		ep0_intb, ep1_intb, ep2_intb, ep3_intb;$/;"	w
+ep0_match	usbf_rf.v	/^wire		ep0_match, ep1_match, ep2_match, ep3_match;$/;"	w
+ep0_re	usbf_rf.v	/^wire		ep0_re, ep1_re, ep2_re, ep3_re;$/;"	w
+ep0_we	usbf_rf.v	/^wire		ep0_we, ep1_we, ep2_we, ep3_we;$/;"	w
+ep10_dma_in_buf_sz1	usbf_rf.v	/^wire		ep10_dma_in_buf_sz1, ep11_dma_in_buf_sz1;$/;"	w
+ep10_dma_out_buf_avail	usbf_rf.v	/^wire		ep10_dma_out_buf_avail, ep11_dma_out_buf_avail;$/;"	w
+ep12_buf0	usbf_rf.v	/^wire	[31:0]	ep12_buf0, ep13_buf0, ep14_buf0, ep15_buf0;$/;"	w
+ep12_buf1	usbf_rf.v	/^wire	[31:0]	ep12_buf1, ep13_buf1, ep14_buf1, ep15_buf1;$/;"	w
+ep12_csr	usbf_rf.v	/^wire	[31:0]	ep12_csr, ep13_csr, ep14_csr, ep15_csr;$/;"	w
+ep12_dma_in_buf_sz1	usbf_rf.v	/^wire		ep12_dma_in_buf_sz1, ep13_dma_in_buf_sz1;$/;"	w
+ep12_dma_out_buf_avail	usbf_rf.v	/^wire		ep12_dma_out_buf_avail, ep13_dma_out_buf_avail;$/;"	w
+ep12_dout	usbf_rf.v	/^wire	[31:0]	ep12_dout, ep13_dout, ep14_dout, ep15_dout;$/;"	w
+ep12_inta	usbf_rf.v	/^wire		ep12_inta, ep13_inta, ep14_inta, ep15_inta;$/;"	w
+ep12_intb	usbf_rf.v	/^wire		ep12_intb, ep13_intb, ep14_intb, ep15_intb;$/;"	w
+ep12_match	usbf_rf.v	/^wire		ep12_match, ep13_match, ep14_match, ep15_match;$/;"	w
+ep12_re	usbf_rf.v	/^wire		ep12_re, ep13_re, ep14_re, ep15_re;$/;"	w
+ep12_we	usbf_rf.v	/^wire		ep12_we, ep13_we, ep14_we, ep15_we;$/;"	w
+ep14_dma_in_buf_sz1	usbf_rf.v	/^wire		ep14_dma_in_buf_sz1, ep15_dma_in_buf_sz1;$/;"	w
+ep14_dma_out_buf_avail	usbf_rf.v	/^wire		ep14_dma_out_buf_avail, ep15_dma_out_buf_avail;$/;"	w
+ep2_dma_in_buf_sz1	usbf_rf.v	/^wire		ep2_dma_in_buf_sz1, ep3_dma_in_buf_sz1;$/;"	w
+ep2_dma_out_buf_avail	usbf_rf.v	/^wire		ep2_dma_out_buf_avail, ep3_dma_out_buf_avail;$/;"	w
+ep4_buf0	usbf_rf.v	/^wire	[31:0]	ep4_buf0, ep5_buf0, ep6_buf0, ep7_buf0;$/;"	w
+ep4_buf1	usbf_rf.v	/^wire	[31:0]	ep4_buf1, ep5_buf1, ep6_buf1, ep7_buf1;$/;"	w
+ep4_csr	usbf_rf.v	/^wire	[31:0]	ep4_csr, ep5_csr, ep6_csr, ep7_csr;$/;"	w
+ep4_dma_in_buf_sz1	usbf_rf.v	/^wire		ep4_dma_in_buf_sz1, ep5_dma_in_buf_sz1;$/;"	w
+ep4_dma_out_buf_avail	usbf_rf.v	/^wire		ep4_dma_out_buf_avail, ep5_dma_out_buf_avail;$/;"	w
+ep4_dout	usbf_rf.v	/^wire	[31:0]	ep4_dout, ep5_dout, ep6_dout, ep7_dout;$/;"	w
+ep4_inta	usbf_rf.v	/^wire		ep4_inta, ep5_inta, ep6_inta, ep7_inta;$/;"	w
+ep4_intb	usbf_rf.v	/^wire		ep4_intb, ep5_intb, ep6_intb, ep7_intb;$/;"	w
+ep4_match	usbf_rf.v	/^wire		ep4_match, ep5_match, ep6_match, ep7_match;$/;"	w
+ep4_re	usbf_rf.v	/^wire		ep4_re, ep5_re, ep6_re, ep7_re;$/;"	w
+ep4_we	usbf_rf.v	/^wire		ep4_we, ep5_we, ep6_we, ep7_we;$/;"	w
+ep6_dma_in_buf_sz1	usbf_rf.v	/^wire		ep6_dma_in_buf_sz1, ep7_dma_in_buf_sz1;$/;"	w
+ep6_dma_out_buf_avail	usbf_rf.v	/^wire		ep6_dma_out_buf_avail, ep7_dma_out_buf_avail;$/;"	w
+ep8_buf0	usbf_rf.v	/^wire	[31:0]	ep8_buf0, ep9_buf0, ep10_buf0, ep11_buf0;$/;"	w
+ep8_buf1	usbf_rf.v	/^wire	[31:0]	ep8_buf1, ep9_buf1, ep10_buf1, ep11_buf1;$/;"	w
+ep8_csr	usbf_rf.v	/^wire	[31:0]	ep8_csr, ep9_csr, ep10_csr, ep11_csr;$/;"	w
+ep8_dma_in_buf_sz1	usbf_rf.v	/^wire		ep8_dma_in_buf_sz1, ep9_dma_in_buf_sz1;$/;"	w
+ep8_dma_out_buf_avail	usbf_rf.v	/^wire		ep8_dma_out_buf_avail, ep9_dma_out_buf_avail;$/;"	w
+ep8_dout	usbf_rf.v	/^wire	[31:0]	ep8_dout, ep9_dout, ep10_dout, ep11_dout;$/;"	w
+ep8_inta	usbf_rf.v	/^wire		ep8_inta, ep9_inta, ep10_inta, ep11_inta;$/;"	w
+ep8_intb	usbf_rf.v	/^wire		ep8_intb, ep9_intb, ep10_intb, ep11_intb;$/;"	w
+ep8_match	usbf_rf.v	/^wire		ep8_match, ep9_match, ep10_match, ep11_match;$/;"	w
+ep8_re	usbf_rf.v	/^wire		ep8_re, ep9_re, ep10_re, ep11_re;$/;"	w
+ep8_we	usbf_rf.v	/^wire		ep8_we, ep9_we, ep10_we, ep11_we;$/;"	w
+ep_check	usbf_top.v	/^reg	[15:0]	ep_check;$/;"	r
+ep_cnt	usbf_top.v	/^integer 	ep_cnt, ep_cnt2;$/;"	v
+ep_disabled	usbf_pe.v	/^wire		ep_disabled, ep_stall;		\/\/ Endpoint forced conditions$/;"	w
+ep_in	usbf_ep_rf.v	/^wire		ep_in;$/;"	w
+ep_match	usbf_ep_rf.v	/^output		ep_match;	\/\/ Asserted to indicate a ep no is matched$/;"	p
+ep_match	usbf_ep_rf_dummy.v	/^output		ep_match;	\/\/ Asserted to indicate a ep no is matched$/;"	p
+ep_match_r	usbf_ep_rf.v	/^reg		ep_match_r; $/;"	r
+ep_out	usbf_ep_rf.v	/^wire		ep_out;$/;"	w
+ep_sel	usbf_ep_rf.v	/^input	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	p
+ep_sel	usbf_ep_rf_dummy.v	/^input	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	p
+ep_sel	usbf_pe.v	/^input	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	p
+ep_sel	usbf_pl.v	/^output	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	p
+ep_sel	usbf_rf.v	/^input	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	p
+ep_sel	usbf_top.v	/^wire	[3:0]	ep_sel;		\/\/ Endpoint Number Input$/;"	w
+fa	usbf_pl.v	/^input	[6:0]	fa;		\/\/ Function Address (as set by the controller)$/;"	p
+fill_buf0	usbf_idma.v	/^wire		fill_buf0, fill_buf1;$/;"	w
+frame_no	usbf_pd.v	/^output	[10:0]	frame_no;		\/\/ Frame number for SOF tokens$/;"	p
+frame_no	usbf_pl.v	/^wire	[10:0]	frame_no;$/;"	w
+frame_no_r	usbf_pl.v	/^reg	[10:0]	frame_no_r;	\/\/ Current Frame Number register$/;"	r
+frame_no_same	usbf_pl.v	/^reg		frame_no_same;	\/\/ Indicates current and prev. frame numbers$/;"	r
+frame_no_we	usbf_pl.v	/^wire		frame_no_we;$/;"	w
+frame_no_we_r	usbf_pl.v	/^reg		frame_no_we_r;$/;"	r
+frm_nat	usbf_pl.v	/^output	[31:0]	frm_nat;$/;"	p
+frm_nat	usbf_rf.v	/^input	[31:0]	frm_nat;$/;"	p
+frm_nat	usbf_top.v	/^wire	[31:0]	frm_nat;	\/\/ Frame Number and Time Register$/;"	w
+fsel	usbf_pe.v	/^input		fsel;		\/\/ This function is selected$/;"	p
+fsel	usbf_pl.v	/^wire		fsel;		\/\/ This Function is selected$/;"	w
+funct_adr	usbf_rf.v	/^output	[6:0]	funct_adr;	\/\/ Function Address$/;"	p
+funct_adr	usbf_rf.v	/^reg	[6:0]	funct_adr;$/;"	r
+funct_adr	usbf_top.v	/^wire	[6:0]	funct_adr;	\/\/ This functions address (set by controller)$/;"	w
+got_pid_ack	usbf_pd.v	/^reg		got_pid_ack;$/;"	r
+hms_clk	usbf_pl.v	/^reg		hms_clk;	\/\/ 0.5 Micro Second Clock$/;"	r
+hms_cnt	usbf_pl.v	/^reg	[4:0]	hms_cnt;$/;"	r
+idin	usbf_ep_rf.v	/^input	[31:0]	idin;		\/\/ Data Input$/;"	p
+idin	usbf_ep_rf_dummy.v	/^input	[31:0]	idin;		\/\/ Data Input$/;"	p
+idin	usbf_pe.v	/^output	[31:0]	idin;		\/\/ Data Output$/;"	p
+idin	usbf_pe.v	/^reg	[31:0]	idin;$/;"	r
+idin	usbf_pl.v	/^output	[31:0]	idin;		\/\/ Data Input$/;"	p
+idin	usbf_rf.v	/^input	[31:0]	idin;		\/\/ Data Input$/;"	p
+idin	usbf_top.v	/^wire	[31:0]	idin;		\/\/ Data Input$/;"	w
+idle_cnt1	usbf_utmi_ls.v	/^reg	[7:0]	idle_cnt1, idle_cnt1_next;$/;"	r
+idle_cnt1_clr	usbf_utmi_ls.v	/^reg		idle_cnt1_clr;$/;"	r
+idle_cnt_clr	usbf_utmi_ls.v	/^reg		idle_cnt_clr;$/;"	r
+idle_long	usbf_utmi_ls.v	/^reg		idle_long;$/;"	r
+idle_long_set	usbf_utmi_ls.v	/^wire		idle_long_set, idle_long_clr;$/;"	w
+idma_done	usbf_idma.v	/^output		idma_done;	\/\/ DMA is done$/;"	p
+idma_done	usbf_idma.v	/^reg		idma_done;		\/\/ DMA transfer is done$/;"	r
+idma_done	usbf_pe.v	/^input		idma_done;	\/\/ DMA is done indicator$/;"	p
+idma_done	usbf_pl.v	/^wire		idma_done;	\/\/ DMA is done$/;"	w
+iena	usbf_ep_rf.v	/^reg	[5:0]	iena, ienb;	\/\/ Interrupt enables$/;"	r
+in_op	usbf_pe.v	/^wire		in_op, out_op;	\/\/ Indicate a IN or OUT operation$/;"	w
+in_token	usbf_pe.v	/^reg		in_token;$/;"	r
+int	usbf_ep_rf.v	/^wire	[31:0]	int;$/;"	w
+int_buf0_set	usbf_ep_rf.v	/^input		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	p
+int_buf0_set	usbf_ep_rf_dummy.v	/^input		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	p
+int_buf0_set	usbf_pe.v	/^output		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	p
+int_buf0_set	usbf_pl.v	/^output		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	p
+int_buf0_set	usbf_rf.v	/^input		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	p
+int_buf0_set	usbf_top.v	/^wire		int_buf0_set;	\/\/ Set buf0 full\/empty interrupt$/;"	w
+int_buf1_set	usbf_ep_rf.v	/^input		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	p
+int_buf1_set	usbf_ep_rf_dummy.v	/^input		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	p
+int_buf1_set	usbf_pe.v	/^output		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	p
+int_buf1_set	usbf_pl.v	/^output		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	p
+int_buf1_set	usbf_rf.v	/^input		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	p
+int_buf1_set	usbf_top.v	/^wire		int_buf1_set;	\/\/ Set buf1 full\/empty interrupt$/;"	w
+int_crc16_set	usbf_ep_rf.v	/^input		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	p
+int_crc16_set	usbf_ep_rf_dummy.v	/^input		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	p
+int_crc16_set	usbf_pe.v	/^output		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	p
+int_crc16_set	usbf_pl.v	/^output		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	p
+int_crc16_set	usbf_rf.v	/^input		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	p
+int_crc16_set	usbf_top.v	/^wire		int_crc16_set;	\/\/ Set CRC16 error interrupt$/;"	w
+int_re	usbf_ep_rf.v	/^reg		int_re;$/;"	r
+int_seqerr_set	usbf_ep_rf.v	/^input		int_seqerr_set;	\/\/ Set PID sequence error interrupt$/;"	p
+int_seqerr_set	usbf_ep_rf_dummy.v	/^input		int_seqerr_set;	\/\/ Set PID sequence error interrupt$/;"	p
+int_seqerr_set	usbf_pe.v	/^output		int_seqerr_set;	\/\/ Set PID sequence error interrupt$/;"	p
+int_seqerr_set	usbf_pe.v	/^reg		int_seqerr_set;$/;"	r
+int_seqerr_set	usbf_pl.v	/^output		int_seqerr_set;	\/\/ Set PID sequence error interrupt$/;"	p
+int_seqerr_set	usbf_rf.v	/^input		int_seqerr_set;	\/\/ Set PID Sequence Error Interrupt$/;"	p
+int_seqerr_set	usbf_top.v	/^wire		int_seqerr_set;	\/\/ Set PID sequence error interrupt$/;"	w
+int_seqerr_set_d	usbf_pe.v	/^reg		int_seqerr_set_d;$/;"	r
+int_set_en	usbf_pe.v	/^reg		int_set_en;$/;"	r
+int_src_re	usbf_rf.v	/^reg		int_src_re;$/;"	r
+int_srca	usbf_rf.v	/^reg	[15:0]	int_srca;$/;"	r
+int_srcb	usbf_rf.v	/^reg	[8:0]	int_srcb;$/;"	r
+int_stat	usbf_ep_rf.v	/^reg	[6:0]	int_stat;		\/\/ Interrupt status$/;"	r
+int_to_set	usbf_ep_rf.v	/^input		int_to_set;	\/\/ Set time out interrupt$/;"	p
+int_to_set	usbf_ep_rf_dummy.v	/^input		int_to_set;	\/\/ Set time out interrupt$/;"	p
+int_to_set	usbf_pe.v	/^output		int_to_set;	\/\/ Set time out interrupt$/;"	p
+int_to_set	usbf_pl.v	/^output		int_to_set;	\/\/ Set time out interrupt$/;"	p
+int_to_set	usbf_rf.v	/^input		int_to_set;	\/\/ Set time out interrupt$/;"	p
+int_to_set	usbf_top.v	/^wire		int_to_set;	\/\/ Set time out interrupt$/;"	w
+int_upid_set	usbf_ep_rf.v	/^input		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	p
+int_upid_set	usbf_ep_rf_dummy.v	/^input		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	p
+int_upid_set	usbf_pe.v	/^output		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	p
+int_upid_set	usbf_pe.v	/^reg		int_upid_set;$/;"	r
+int_upid_set	usbf_pl.v	/^output		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	p
+int_upid_set	usbf_rf.v	/^input		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	p
+int_upid_set	usbf_top.v	/^wire		int_upid_set;	\/\/ Set unsupported PID interrupt$/;"	w
+inta	usbf_ep_rf.v	/^output		inta, intb;$/;"	p
+inta	usbf_ep_rf.v	/^reg		inta, intb;$/;"	r
+inta	usbf_ep_rf_dummy.v	/^output		inta, intb;$/;"	p
+inta	usbf_rf.v	/^output		inta, intb;$/;"	p
+inta	usbf_rf.v	/^reg		inta, intb;$/;"	r
+inta_ep	usbf_rf.v	/^wire		inta_ep, intb_ep;$/;"	w
+inta_o	usbf_top.v	/^output		inta_o;$/;"	p
+inta_rf	usbf_rf.v	/^wire		inta_rf, intb_rf;$/;"	w
+intb_msk	usbf_rf.v	/^reg	[8:0]	intb_msk, inta_msk;$/;"	r
+intb_o	usbf_top.v	/^output		intb_o;$/;"	p
+k_long	usbf_utmi_ls.v	/^wire		k_long, j_long, se0_long;$/;"	w
+last	usbf_pa.v	/^reg		last;$/;"	r
+last_buf_adr	usbf_idma.v	/^reg	[SSRAM_HADR:0]	last_buf_adr;	\/\/ Last Buffer Address$/;"	r
+line_stat	usbf_rf.v	/^input	[1:0]	line_stat;	\/\/ Below are signals for interrupt generation$/;"	p
+line_state_r	usbf_utmi_ls.v	/^reg	[1:0]	line_state_r;$/;"	r
+lrg_ok	usbf_pe.v	/^wire		lrg_ok, sml_ok;		\/\/ Packet size acceptance$/;"	w
+ls_idle	usbf_utmi_ls.v	/^wire		ls_idle;$/;"	w
+ls_idle_r	usbf_utmi_ls.v	/^reg		ls_idle_r;$/;"	r
+ls_k_r	usbf_utmi_ls.v	/^reg		ls_k_r, ls_j_r, ls_se0_r;$/;"	r
+ls_se0	usbf_utmi_ls.v	/^wire		ls_se0, ls_j, ls_k, ls_se1;$/;"	w
+ma2wb_d	usbf_top.v	/^wire	[31:0]	ma2wb_d;$/;"	w
+ma_ack	usbf_top.v	/^wire		ma_ack;$/;"	w
+ma_ack	usbf_wb.v	/^input		ma_ack;$/;"	p
+ma_adr	usbf_top.v	/^wire	[`USBF_UFC_HADR:0]	ma_adr;$/;"	w
+ma_adr	usbf_wb.v	/^output	[`USBF_UFC_HADR:0]	ma_adr;$/;"	p
+ma_din	usbf_wb.v	/^input	[31:0]	ma_din;$/;"	p
+ma_dout	usbf_wb.v	/^output	[31:0]	ma_dout;$/;"	p
+ma_req	usbf_top.v	/^wire		ma_req;$/;"	w
+ma_req	usbf_wb.v	/^output		ma_req;$/;"	p
+ma_req	usbf_wb.v	/^reg		ma_req;$/;"	r
+ma_we	usbf_top.v	/^wire		ma_we;$/;"	w
+ma_we	usbf_wb.v	/^output		ma_we;$/;"	p
+ma_we	usbf_wb.v	/^reg		ma_we;$/;"	r
+mack	usbf_idma.v	/^input		mack;$/;"	p
+mack	usbf_mem_arb.v	/^output		mack;$/;"	p
+mack	usbf_mem_arb.v	/^wire		mack;$/;"	w
+mack	usbf_pl.v	/^input		mack;$/;"	p
+mack	usbf_pl.v	/^wire		mack;$/;"	w
+mack	usbf_top.v	/^wire		mack;$/;"	w
+mack_r	usbf_idma.v	/^reg		mack_r;$/;"	r
+madr	usbf_idma.v	/^output	[SSRAM_HADR:0]	madr;	\/\/ word address$/;"	p
+madr	usbf_mem_arb.v	/^input	[SSRAM_HADR:0]	madr;$/;"	p
+madr	usbf_pl.v	/^output	[SSRAM_HADR:0]	madr;		\/\/ word address$/;"	p
+madr	usbf_pl.v	/^wire	[SSRAM_HADR:0]	madr;	\/\/ word address$/;"	w
+madr	usbf_top.v	/^wire	[SSRAM_HADR:0]	madr;		\/\/ word address$/;"	w
+main_csr	usbf_rf.v	/^wire	[31:0]	main_csr;$/;"	w
+match	usbf_pe.v	/^input		match;		\/\/ Endpoint Matched$/;"	p
+match	usbf_pl.v	/^input		match;		\/\/ Endpoint Matched$/;"	p
+match	usbf_rf.v	/^output		match;		\/\/ Endpoint Matched$/;"	p
+match	usbf_top.v	/^wire		match;		\/\/ Endpoint Matched$/;"	w
+match_o	usbf_pl.v	/^wire		match_o;$/;"	w
+match_r	usbf_pe.v	/^reg		match_r;$/;"	r
+match_r1	usbf_rf.v	/^reg		match_r1;$/;"	r
+max_pl_sz	usbf_ep_rf.v	/^wire	[10:0]	max_pl_sz;$/;"	w
+max_pl_sz	usbf_pe.v	/^wire	[10:0]	max_pl_sz;		\/\/ Max payload size$/;"	w
+mcyc	usbf_mem_arb.v	/^wire		mcyc;$/;"	w
+mdin	usbf_idma.v	/^input	[31:0]	mdin;$/;"	p
+mdin	usbf_mem_arb.v	/^input	[31:0]	mdin;$/;"	p
+mdin	usbf_pl.v	/^input	[31:0]	mdin;$/;"	p
+mdin	usbf_pl.v	/^wire	[31:0]	mdin;$/;"	w
+mdin	usbf_top.v	/^wire	[31:0]	mdin;$/;"	w
+mdout	usbf_idma.v	/^output	[31:0]	mdout;$/;"	p
+mdout	usbf_mem_arb.v	/^output	[31:0]	mdout;$/;"	p
+mdout	usbf_pl.v	/^output	[31:0]	mdout;$/;"	p
+mdout	usbf_pl.v	/^wire	[31:0]	mdout;$/;"	w
+mdout	usbf_top.v	/^wire	[31:0]	mdout;$/;"	w
+me_cnt	usbf_utmi_ls.v	/^reg	[7:0]	me_cnt;$/;"	r
+me_cnt_100_ms	usbf_utmi_ls.v	/^reg		me_cnt_100_ms;$/;"	r
+me_cnt_clr	usbf_utmi_ls.v	/^reg		me_cnt_clr;$/;"	r
+me_ps	usbf_utmi_ls.v	/^reg	[7:0]	me_ps;$/;"	r
+me_ps2	usbf_utmi_ls.v	/^reg	[7:0]	me_ps2;$/;"	r
+me_ps2_0_5_ms	usbf_utmi_ls.v	/^reg		me_ps2_0_5_ms;$/;"	r
+me_ps_2_5_us	usbf_utmi_ls.v	/^reg		me_ps_2_5_us;$/;"	r
+mfm_cnt	usbf_pl.v	/^reg	[3:0]	mfm_cnt;	\/\/ Micro Frame Counter$/;"	r
+mode_hs	usbf_pe.v	/^input		mode_hs;$/;"	p
+mode_hs	usbf_pl.v	/^input		mode_hs;	\/\/ High Speed Mode$/;"	p
+mode_hs	usbf_rf.v	/^input		mode_hs;$/;"	p
+mode_hs	usbf_top.v	/^wire		mode_hs;	\/\/ High Speed Mode$/;"	w
+mode_hs	usbf_utmi_if.v	/^output		mode_hs;	\/\/ High Speed Mode$/;"	p
+mode_hs	usbf_utmi_ls.v	/^output		mode_hs;	\/\/ High Speed Mode$/;"	p
+mode_hs	usbf_utmi_ls.v	/^reg		mode_hs, mode_set_hs, mode_set_fs;$/;"	r
+mreq	usbf_idma.v	/^output		mreq;$/;"	p
+mreq	usbf_mem_arb.v	/^input		mreq;$/;"	p
+mreq	usbf_pl.v	/^output		mreq;$/;"	p
+mreq	usbf_pl.v	/^wire		mreq;$/;"	w
+mreq	usbf_top.v	/^wire		mreq;$/;"	w
+mreq_d	usbf_idma.v	/^reg		mreq_d;			\/\/ Memory request from State Machine$/;"	r
+mwe	usbf_idma.v	/^output		mwe;$/;"	p
+mwe	usbf_idma.v	/^reg		mwe;$/;"	r
+mwe	usbf_mem_arb.v	/^input		mwe;$/;"	p
+mwe	usbf_pl.v	/^output		mwe;$/;"	p
+mwe	usbf_pl.v	/^wire		mwe;$/;"	w
+mwe	usbf_top.v	/^wire		mwe;$/;"	w
+mwe_d	usbf_idma.v	/^reg		mwe_d;			\/\/ Memory Write enable$/;"	r
+new_adr	usbf_pe.v	/^wire	[SSRAM_HADR + 2:0]	new_adr;$/;"	w
+new_size	usbf_pe.v	/^reg	[13:0]	new_size;$/;"	r
+new_sizeb	usbf_pe.v	/^reg	[13:0]	new_sizeb;$/;"	r
+next_bsel	usbf_pe.v	/^wire	[1:0]	next_bsel;$/;"	w
+next_dpid	usbf_pe.v	/^reg	[1:0]	next_dpid;$/;"	r
+no_buf0_dma	usbf_pe.v	/^wire		no_buf0_dma;$/;"	w
+no_bufs	usbf_pe.v	/^wire		no_bufs;$/;"	w
+no_bufs0	usbf_pe.v	/^reg		no_bufs0, no_bufs1;$/;"	r
+nse_err	usbf_pe.v	/^output		nse_err;	\/\/ no such endpoint error$/;"	p
+nse_err	usbf_pe.v	/^reg		nse_err;$/;"	r
+nse_err	usbf_pl.v	/^output		nse_err;	\/\/ no such endpoint error$/;"	p
+nse_err	usbf_rf.v	/^input		nse_err;$/;"	p
+nse_err	usbf_top.v	/^wire		nse_err;	\/\/ No Such Endpoint Error$/;"	w
+nse_err_r	usbf_rf.v	/^reg		nse_err_r;$/;"	r
+ots_stop	usbf_ep_rf.v	/^reg		ots_stop;$/;"	r
+out_to_small	usbf_ep_rf.v	/^input		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	p
+out_to_small	usbf_ep_rf_dummy.v	/^input		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	p
+out_to_small	usbf_pe.v	/^output		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	p
+out_to_small	usbf_pe.v	/^reg		out_to_small, out_to_small_r;$/;"	r
+out_to_small	usbf_pl.v	/^output		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	p
+out_to_small	usbf_rf.v	/^input		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	p
+out_to_small	usbf_top.v	/^wire		out_to_small;	\/\/ OUT packet was to small for DMA operation$/;"	w
+out_token	usbf_pe.v	/^reg		out_token;$/;"	r
+phy_clk	usbf_mem_arb.v	/^input		phy_clk, wclk, rst;$/;"	p
+phy_clk	usbf_utmi_if.v	/^input		phy_clk;$/;"	p
+phy_clk_pad_i	usbf_top.v	/^input		phy_clk_pad_i;$/;"	p
+phy_rst_pad_o	usbf_top.v	/^output		phy_rst_pad_o;$/;"	p
+pid	usbf_pd.v	/^reg	[7:0]	pid;			\/\/ Packet PDI$/;"	r
+pid_ACK	usbf_pd.v	/^output		pid_ACK, pid_NACK, pid_STALL, pid_NYET;$/;"	p
+pid_ACK	usbf_pd.v	/^wire		pid_ACK, pid_NACK, pid_STALL, pid_NYET;$/;"	w
+pid_ACK	usbf_pe.v	/^input		pid_ACK, pid_NACK, pid_STALL, pid_NYET;$/;"	p
+pid_ACK	usbf_pl.v	/^wire		pid_ACK, pid_NACK, pid_STALL, pid_NYET;$/;"	w
+pid_DATA	usbf_pd.v	/^wire		pid_DATA;		\/\/ All DATA packets that we recognize$/;"	w
+pid_DATA0	usbf_pd.v	/^output		pid_DATA0, pid_DATA1, pid_DATA2, pid_MDATA;$/;"	p
+pid_DATA0	usbf_pd.v	/^wire		pid_DATA0, pid_DATA1, pid_DATA2, pid_MDATA;$/;"	w
+pid_DATA0	usbf_pe.v	/^input		pid_DATA0, pid_DATA1, pid_DATA2, pid_MDATA;$/;"	p
+pid_DATA0	usbf_pl.v	/^wire		pid_DATA0, pid_DATA1, pid_DATA2, pid_MDATA;$/;"	w
+pid_OUT	usbf_pd.v	/^output		pid_OUT, pid_IN, pid_SOF, pid_SETUP;$/;"	p
+pid_OUT	usbf_pd.v	/^wire		pid_OUT, pid_IN, pid_SOF, pid_SETUP;$/;"	w
+pid_OUT	usbf_pe.v	/^input		pid_OUT, pid_IN, pid_SOF, pid_SETUP;$/;"	p
+pid_OUT	usbf_pl.v	/^wire		pid_OUT, pid_IN, pid_SOF, pid_SETUP;$/;"	w
+pid_OUT_r	usbf_pe.v	/^reg	pid_OUT_r, pid_IN_r, pid_PING_r, pid_SETUP_r;$/;"	r
+pid_PRE	usbf_pd.v	/^output		pid_PRE, pid_ERR, pid_SPLIT, pid_PING;$/;"	p
+pid_PRE	usbf_pd.v	/^wire		pid_PRE, pid_ERR, pid_SPLIT, pid_PING, pid_RES;$/;"	w
+pid_PRE	usbf_pe.v	/^input		pid_PRE, pid_ERR, pid_SPLIT, pid_PING;$/;"	p
+pid_PRE	usbf_pl.v	/^wire		pid_PRE, pid_ERR, pid_SPLIT, pid_PING;$/;"	w
+pid_TOKEN	usbf_pd.v	/^wire		pid_TOKEN;		\/\/ All TOKEN packet that we recognize$/;"	w
+pid_bad	usbf_pl.v	/^wire		pid_bad, pid_bad1, pid_bad2;$/;"	w
+pid_cks_err	usbf_pd.v	/^output		pid_cks_err;		\/\/ Indicates a PID checksum error$/;"	p
+pid_cks_err	usbf_pd.v	/^wire		pid_cks_err;		\/\/ Indicates a pid checksum err$/;"	w
+pid_cs_err	usbf_pl.v	/^output		pid_cs_err;	\/\/ pid checksum error$/;"	p
+pid_cs_err	usbf_rf.v	/^input		pid_cs_err;$/;"	p
+pid_cs_err	usbf_top.v	/^wire		pid_cs_err;	\/\/ PID CS error$/;"	w
+pid_cs_err_r	usbf_rf.v	/^reg		pid_cs_err_r;$/;"	r
+pid_ld_en	usbf_pd.v	/^wire		pid_ld_en;		\/\/ Enable loading of PID (all conditions)$/;"	w
+pid_le_sm	usbf_pd.v	/^reg		pid_le_sm;		\/\/ PID Load enable from State Machine$/;"	r
+pid_seq_err	usbf_pe.v	/^reg		pid_seq_err;$/;"	r
+ps_cnt	usbf_utmi_ls.v	/^reg	[3:0]	ps_cnt;$/;"	r
+ps_cnt_clr	usbf_utmi_ls.v	/^reg		ps_cnt_clr;$/;"	r
+r1	usbf_ep_rf.v	/^reg		r1, r2, r4, r5;$/;"	r
+rd_buf0	usbf_idma.v	/^reg	[31:0]	rd_buf0, rd_buf1;	\/\/ Mem Rd. buffers for TX$/;"	r
+rd_first	usbf_idma.v	/^reg		rd_first;		\/\/ Indicates initial fill of buffers$/;"	r
+rd_next	usbf_idma.v	/^input		rd_next;$/;"	p
+rd_next	usbf_pa.v	/^output		rd_next;$/;"	p
+rd_next	usbf_pa.v	/^reg		rd_next;$/;"	r
+rd_next	usbf_pl.v	/^wire		rd_next;$/;"	w
+re	usbf_ep_rf.v	/^input		re;$/;"	p
+re	usbf_ep_rf_dummy.v	/^input		re;$/;"	p
+re	usbf_rf.v	/^input		re;$/;"	p
+resume_req	usbf_top.v	/^wire		resume_req;	\/\/ Resume Request$/;"	w
+resume_req	usbf_utmi_if.v	/^input		resume_req;$/;"	p
+resume_req	usbf_utmi_ls.v	/^input		resume_req;$/;"	p
+resume_req_i	usbf_top.v	/^input		resume_req_i;$/;"	p
+resume_req_r	usbf_top.v	/^reg		resume_req_r;$/;"	r
+resume_req_s	usbf_utmi_ls.v	/^reg		resume_req_s;$/;"	r
+resume_req_s1	usbf_utmi_ls.v	/^reg		resume_req_s1;$/;"	r
+rf2wb_d	usbf_top.v	/^wire	[31:0]	rf2wb_d;$/;"	w
+rf_din	usbf_wb.v	/^input	[31:0]	rf_din;$/;"	p
+rf_dout	usbf_wb.v	/^output	[31:0]	rf_dout;$/;"	p
+rf_re	usbf_top.v	/^wire		rf_re;$/;"	w
+rf_re	usbf_wb.v	/^output		rf_re;$/;"	p
+rf_re	usbf_wb.v	/^reg		rf_re, rf_we_d;$/;"	r
+rf_resume_req	usbf_rf.v	/^output		rf_resume_req;$/;"	p
+rf_resume_req	usbf_top.v	/^wire		rf_resume_req;	\/\/ Resume Request From main CSR$/;"	w
+rf_resume_req_r	usbf_rf.v	/^reg		rf_resume_req_r, rf_resume_req;$/;"	r
+rf_we	usbf_top.v	/^wire		rf_we;$/;"	w
+rf_we	usbf_wb.v	/^output		rf_we;$/;"	p
+rst	usbf_top.v	/^wire		rst;$/;"	w
+rst	usbf_utmi_if.v	/^input		rst;$/;"	p
+rst	usbf_utmi_ls.v	/^input		rst;$/;"	p
+rst	usbf_wb.v	/^input		rst;$/;"	p
+rst_i	usbf_top.v	/^input		rst_i;$/;"	p
+rx_ack_to	usbf_pe.v	/^reg		rx_ack_to;$/;"	r
+rx_ack_to_clr	usbf_pe.v	/^reg		rx_ack_to_clr;$/;"	r
+rx_ack_to_clr_d	usbf_pe.v	/^reg		rx_ack_to_clr_d;$/;"	r
+rx_ack_to_cnt	usbf_pe.v	/^reg	[7:0]	rx_ack_to_cnt;$/;"	r
+rx_ack_to_val	usbf_pe.v	/^wire	[7:0]	rx_ack_to_val, tx_data_to_val;$/;"	w
+rx_active	usbf_utmi_ls.v	/^input		rx_active, tx_ready;$/;"	p
+rx_active_r	usbf_pd.v	/^reg		rx_active_r;$/;"	r
+rx_data	usbf_pd.v	/^input	[7:0]	rx_data;$/;"	p
+rx_data	usbf_pl.v	/^input	[7:0]	rx_data;$/;"	p
+rx_data	usbf_pl.v	/^wire	[7:0]	rx_data;$/;"	w
+rx_data	usbf_top.v	/^wire	[7:0]	rx_data;$/;"	w
+rx_data	usbf_utmi_if.v	/^output	[7:0]	rx_data;$/;"	p
+rx_data	usbf_utmi_if.v	/^reg	[7:0]	rx_data;$/;"	r
+rx_data_done	usbf_idma.v	/^input		rx_data_done;$/;"	p
+rx_data_done	usbf_pd.v	/^output		rx_data_done;		\/\/ Indicates end of a transfer$/;"	p
+rx_data_done	usbf_pe.v	/^input		rx_data_done;		\/\/ Indicates end of a transfer$/;"	p
+rx_data_done	usbf_pl.v	/^wire		rx_data_done;$/;"	w
+rx_data_done_r	usbf_idma.v	/^reg		rx_data_done_r;$/;"	r
+rx_data_done_r2	usbf_idma.v	/^reg		rx_data_done_r2;$/;"	r
+rx_data_st	usbf_idma.v	/^input	[7:0]	rx_data_st;$/;"	p
+rx_data_st	usbf_pd.v	/^output	[7:0]	rx_data_st;		\/\/ Data to memory store unit$/;"	p
+rx_data_st	usbf_pl.v	/^wire	[7:0]	rx_data_st;$/;"	w
+rx_data_st_r	usbf_idma.v	/^reg	[7:0]	rx_data_st_r;$/;"	r
+rx_data_valid	usbf_idma.v	/^input		rx_data_valid;$/;"	p
+rx_data_valid	usbf_pd.v	/^output		rx_data_valid;		\/\/ Data on rx_data_st is valid$/;"	p
+rx_data_valid	usbf_pe.v	/^input		rx_data_valid;		\/\/ Data on rx_data_st is valid$/;"	p
+rx_data_valid	usbf_pl.v	/^wire		rx_data_valid;$/;"	w
+rx_data_valid_r	usbf_idma.v	/^reg		rx_data_valid_r;$/;"	r
+rx_dma_en	usbf_idma.v	/^input		rx_dma_en;	\/\/ Allows the data to be stored$/;"	p
+rx_dma_en	usbf_pe.v	/^output		rx_dma_en;	\/\/ Allows the data to be stored$/;"	p
+rx_dma_en	usbf_pe.v	/^reg		rx_dma_en, tx_dma_en;$/;"	r
+rx_dma_en	usbf_pl.v	/^wire		rx_dma_en;	\/\/ Allows the data to be stored$/;"	w
+rx_err	usbf_rf.v	/^input		rx_err;$/;"	p
+rx_err_r	usbf_rf.v	/^reg		rx_err_r;$/;"	r
+rx_seq_err	usbf_pl.v	/^wire		rx_seq_err;$/;"	w
+rx_valid	usbf_pd.v	/^input		rx_valid, rx_active, rx_err;$/;"	p
+rx_valid	usbf_pl.v	/^input		rx_valid, rx_active, rx_err;$/;"	p
+rx_valid	usbf_top.v	/^wire		rx_valid, rx_active, rx_err;$/;"	w
+rx_valid	usbf_utmi_if.v	/^output		rx_valid, rx_active, rx_err;$/;"	p
+rx_valid	usbf_utmi_if.v	/^reg		rx_valid, rx_active, rx_err;$/;"	r
+rxv1	usbf_pd.v	/^reg		rxv1;$/;"	r
+rxv2	usbf_pd.v	/^reg		rxv2;$/;"	r
+send_data	usbf_idma.v	/^output		send_data;$/;"	p
+send_data	usbf_idma.v	/^wire		send_data;		\/\/ Enable UTMI Transmitter$/;"	w
+send_data	usbf_pa.v	/^input		send_data;$/;"	p
+send_data	usbf_pl.v	/^wire		send_data;$/;"	w
+send_data_r	usbf_idma.v	/^reg		send_data_r;$/;"	r
+send_data_r	usbf_pa.v	/^reg		send_data_r;$/;"	r
+send_data_r2	usbf_pa.v	/^reg		send_data_r2;$/;"	r
+send_token	usbf_pa.v	/^input		send_token;$/;"	p
+send_token	usbf_pe.v	/^output		send_token;$/;"	p
+send_token	usbf_pe.v	/^reg		send_token;$/;"	r
+send_token	usbf_pl.v	/^wire		send_token;$/;"	w
+send_token_d	usbf_pe.v	/^reg		send_token_d;$/;"	r
+send_token_r	usbf_pa.v	/^reg		send_token_r;$/;"	r
+send_zero_length	usbf_idma.v	/^input		send_zero_length;$/;"	p
+send_zero_length	usbf_pa.v	/^input		send_zero_length;$/;"	p
+send_zero_length	usbf_pe.v	/^output		send_zero_length;$/;"	p
+send_zero_length	usbf_pe.v	/^reg		send_zero_length;$/;"	r
+send_zero_length_r	usbf_idma.v	/^reg		send_zero_length_r;$/;"	r
+send_zero_length_r	usbf_pa.v	/^reg		send_zero_length_r;$/;"	r
+seq_err	usbf_pd.v	/^output		seq_err;		\/\/ State Machine Sequence Error$/;"	p
+seq_err	usbf_pd.v	/^reg		seq_err;		\/\/ State machine sequence error$/;"	r
+set_r	usbf_ep_rf.v	/^reg		set_r;$/;"	r
+setup_token	usbf_pe.v	/^reg		setup_token;$/;"	r
+siz_dec	usbf_idma.v	/^wire		siz_dec;$/;"	w
+siz_inc	usbf_idma.v	/^wire		siz_inc;$/;"	w
+sizd_c	usbf_idma.v	/^reg	[13:0]	sizd_c;			\/\/ Internal size counter$/;"	r
+sizd_is_zero	usbf_idma.v	/^reg		sizd_is_zero;		\/\/ Indicates when all bytes have been$/;"	r
+sizd_is_zero_d	usbf_idma.v	/^wire		sizd_is_zero_d;$/;"	w
+size	usbf_idma.v	/^input	[13:0]	size;		\/\/ Size in bytes$/;"	p
+size	usbf_pe.v	/^output	[13:0]	size;		\/\/ Size in bytes$/;"	p
+size	usbf_pl.v	/^wire	[13:0]	size;		\/\/ Size in bytes$/;"	w
+size_next	usbf_pe.v	/^wire	[13:0]	size_next;$/;"	w
+size_next_r	usbf_pe.v	/^reg	[13:0]	size_next_r;$/;"	r
+sizu_c	usbf_idma.v	/^output	[10:0]	sizu_c;		\/\/ Up and Down counting size registers, used to update$/;"	p
+sizu_c	usbf_idma.v	/^reg	[10:0]	sizu_c;			\/\/ Internal size counter$/;"	r
+sizu_c	usbf_pe.v	/^input	[10:0]	sizu_c;		\/\/ Up and Down counting size registers, used to update$/;"	p
+sizu_c	usbf_pl.v	/^wire	[10:0]	sizu_c;		\/\/ Up and Down counting size registers, used$/;"	w
+sof_time	usbf_pl.v	/^reg	[11:0]	sof_time;	\/\/ Time since last sof$/;"	r
+sram_adr	usbf_mem_arb.v	/^output	[SSRAM_HADR:0]	sram_adr;$/;"	p
+sram_adr	usbf_mem_arb.v	/^reg	[SSRAM_HADR:0]	sram_adr;$/;"	r
+sram_adr_o	usbf_top.v	/^output	[SSRAM_HADR:0]	sram_adr_o;$/;"	p
+sram_data_i	usbf_top.v	/^input	[31:0]	sram_data_i;$/;"	p
+sram_data_o	usbf_top.v	/^output	[31:0]	sram_data_o;$/;"	p
+sram_din	usbf_mem_arb.v	/^input	[31:0]	sram_din;$/;"	p
+sram_dout	usbf_mem_arb.v	/^output	[31:0]	sram_dout;$/;"	p
+sram_dout	usbf_mem_arb.v	/^reg	[31:0]	sram_dout;$/;"	r
+sram_re	usbf_mem_arb.v	/^output		sram_re, sram_we;$/;"	p
+sram_re_o	usbf_top.v	/^output		sram_re_o;$/;"	p
+sram_we	usbf_mem_arb.v	/^reg		sram_we;$/;"	r
+sram_we_o	usbf_top.v	/^output		sram_we_o;$/;"	p
+susp_o	usbf_top.v	/^output		susp_o;$/;"	p
+susp_o	usbf_top.v	/^reg		susp_o;$/;"	r
+suspend	usbf_rf.v	/^input		suspend;$/;"	p
+suspend_clr	usbf_top.v	/^wire		suspend_clr;$/;"	w
+suspend_clr	usbf_utmi_if.v	/^output		suspend_clr;$/;"	p
+suspend_clr	usbf_utmi_ls.v	/^output		suspend_clr;$/;"	p
+suspend_clr_wr	usbf_top.v	/^reg		suspend_clr_wr;$/;"	r
+suspend_r	usbf_rf.v	/^reg		suspend_r, suspend_r1;$/;"	r
+suspend_start	usbf_rf.v	/^wire		suspend_start, suspend_end;$/;"	w
+this_dpid	usbf_pe.v	/^reg	[1:0]	this_dpid;$/;"	r
+to_large	usbf_pe.v	/^reg		to_large;	\/\/ Indicates a "to large packer" error$/;"	r
+to_small	usbf_pe.v	/^reg		to_small;	\/\/ Indicates a "to small packer" error$/;"	r
+token0	usbf_pd.v	/^reg	[7:0]	token0, token1;		\/\/ Token Registers$/;"	r
+token_crc5	usbf_pd.v	/^wire	[4:0]	token_crc5;$/;"	w
+token_endp	usbf_pd.v	/^output	[3:0]	token_endp;		\/\/ Endpoint number from token$/;"	p
+token_fadr	usbf_pd.v	/^output	[6:0]	token_fadr;		\/\/ Function address from token$/;"	p
+token_fadr	usbf_pl.v	/^wire	[6:0]	token_fadr;$/;"	w
+token_le_1	usbf_pd.v	/^reg		token_le_1, token_le_2;	\/\/ Latch enables for token storage registers$/;"	r
+token_pid	usbf_pa.v	/^reg	[7:0]	token_pid, data_pid;	\/\/ PIDs from selectors$/;"	r
+token_pid_sel	usbf_pa.v	/^input	[1:0]	token_pid_sel;$/;"	p
+token_pid_sel	usbf_pe.v	/^output	[1:0]	token_pid_sel;$/;"	p
+token_pid_sel	usbf_pe.v	/^reg	[1:0]	token_pid_sel;$/;"	r
+token_pid_sel	usbf_pl.v	/^wire	[1:0]	token_pid_sel;$/;"	w
+token_pid_sel_d	usbf_pe.v	/^reg	[1:0]	token_pid_sel_d;$/;"	r
+token_valid	usbf_pd.v	/^output		token_valid;		\/\/ Token is valid$/;"	p
+token_valid	usbf_pe.v	/^input		token_valid;		\/\/ Token is valid$/;"	p
+token_valid	usbf_pl.v	/^wire		token_valid;$/;"	w
+token_valid_r1	usbf_pd.v	/^reg		token_valid_r1;$/;"	r
+token_valid_str1	usbf_pd.v	/^reg		token_valid_str1;$/;"	r
+tr_fr	usbf_pe.v	/^wire	[1:0]	tr_fr;			\/\/ Number of transfers per micro-frame$/;"	w
+tr_fr_d	usbf_pe.v	/^wire	[1:0]	tr_fr_d;$/;"	w
+tx_data	usbf_pa.v	/^output	[7:0]	tx_data;$/;"	p
+tx_data	usbf_pl.v	/^output	[7:0]	tx_data;$/;"	p
+tx_data	usbf_top.v	/^wire	[7:0]	tx_data;$/;"	w
+tx_data	usbf_utmi_if.v	/^input	[7:0]	tx_data;$/;"	p
+tx_data_d	usbf_pa.v	/^reg	[7:0]	tx_data_d;$/;"	r
+tx_data_data	usbf_pa.v	/^reg	[7:0]	tx_data_data;$/;"	r
+tx_data_st	usbf_idma.v	/^output	[7:0]	tx_data_st;$/;"	p
+tx_data_st	usbf_idma.v	/^reg	[7:0]	tx_data_st;		\/\/ Data output to packet assembler$/;"	r
+tx_data_st	usbf_pa.v	/^input	[7:0]	tx_data_st;$/;"	p
+tx_data_st	usbf_pl.v	/^wire	[7:0]	tx_data_st;$/;"	w
+tx_data_to	usbf_pe.v	/^reg		tx_data_to;$/;"	r
+tx_data_to_clr	usbf_pe.v	/^wire		tx_data_to_clr;$/;"	w
+tx_data_to_cnt	usbf_pe.v	/^reg	[7:0]	tx_data_to_cnt;$/;"	r
+tx_dma_en	usbf_idma.v	/^input		tx_dma_en;	\/\/ Allows for data to be retrieved$/;"	p
+tx_dma_en	usbf_pe.v	/^output		tx_dma_en;	\/\/ Allows for data to be retrieved$/;"	p
+tx_dma_en	usbf_pl.v	/^wire		tx_dma_en;	\/\/ Allows for data to be retrieved$/;"	w
+tx_dma_en_r	usbf_idma.v	/^reg		tx_dma_en_r, rx_dma_en_r;$/;"	r
+tx_first	usbf_pa.v	/^output		tx_first;$/;"	p
+tx_first	usbf_pl.v	/^output		tx_first;$/;"	p
+tx_first	usbf_top.v	/^wire		tx_first;$/;"	w
+tx_first	usbf_utmi_if.v	/^input		tx_first;$/;"	p
+tx_first_r	usbf_pa.v	/^reg		tx_first_r;$/;"	r
+tx_ready	usbf_pa.v	/^input		tx_ready;$/;"	p
+tx_ready	usbf_pl.v	/^input		tx_ready;$/;"	p
+tx_ready	usbf_top.v	/^wire		tx_ready;$/;"	w
+tx_ready	usbf_utmi_if.v	/^output		tx_ready;$/;"	p
+tx_ready	usbf_utmi_if.v	/^reg		tx_ready;$/;"	r
+tx_spec_data	usbf_pa.v	/^reg	[7:0]	tx_spec_data;$/;"	r
+tx_valid	usbf_pa.v	/^output		tx_valid;$/;"	p
+tx_valid	usbf_pe.v	/^input		tx_valid, rx_active;$/;"	p
+tx_valid	usbf_pl.v	/^output		tx_valid;$/;"	p
+tx_valid	usbf_top.v	/^wire		tx_valid;$/;"	w
+tx_valid	usbf_utmi_if.v	/^input		tx_valid;$/;"	p
+tx_valid_d	usbf_pa.v	/^reg		tx_valid_d;$/;"	r
+tx_valid_last	usbf_pa.v	/^output		tx_valid_last;$/;"	p
+tx_valid_last	usbf_pl.v	/^output		tx_valid_last;$/;"	p
+tx_valid_last	usbf_top.v	/^wire		tx_valid_last;$/;"	w
+tx_valid_last	usbf_utmi_if.v	/^input		tx_valid_last;$/;"	p
+tx_valid_out	usbf_pl.v	/^input		tx_valid_out;$/;"	p
+tx_valid_r	usbf_pa.v	/^reg		tx_valid_r;$/;"	r
+tx_valid_r1	usbf_pa.v	/^reg		tx_valid_r1;$/;"	r
+txfr_iso	usbf_pe.v	/^wire		txfr_iso, txfr_bulk;		\/\/ Transfer Types$/;"	w
+uc_bsel	usbf_ep_rf.v	/^reg	[1:0]	uc_bsel, uc_dpd;$/;"	r
+uc_bsel_set	usbf_ep_rf.v	/^input		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	p
+uc_bsel_set	usbf_ep_rf_dummy.v	/^input		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	p
+uc_bsel_set	usbf_pe.v	/^output		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	p
+uc_bsel_set	usbf_pe.v	/^reg		uc_bsel_set;$/;"	r
+uc_bsel_set	usbf_pl.v	/^output		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	p
+uc_bsel_set	usbf_rf.v	/^input		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	p
+uc_bsel_set	usbf_top.v	/^wire		uc_bsel_set;	\/\/ Write to the uc_bsel field$/;"	w
+uc_dpd	usbf_pe.v	/^wire	[1:0]	uc_dpd, uc_bsel;$/;"	w
+uc_dpd_set	usbf_ep_rf.v	/^input		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	p
+uc_dpd_set	usbf_ep_rf_dummy.v	/^input		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	p
+uc_dpd_set	usbf_pe.v	/^output		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	p
+uc_dpd_set	usbf_pe.v	/^reg		uc_dpd_set;$/;"	r
+uc_dpd_set	usbf_pl.v	/^output		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	p
+uc_dpd_set	usbf_rf.v	/^input		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	p
+uc_dpd_set	usbf_top.v	/^wire		uc_dpd_set;	\/\/ Write to the uc_dpd field$/;"	w
+uc_stat_set_d	usbf_pe.v	/^reg		uc_stat_set_d;$/;"	r
+usb_attached	usbf_pl.v	/^input		usb_attached;	\/\/ Attached to USB$/;"	p
+usb_attached	usbf_rf.v	/^input		usb_attached;$/;"	p
+usb_attached	usbf_top.v	/^wire		usb_attached;	\/\/ Attached to USB$/;"	w
+usb_attached	usbf_utmi_if.v	/^output		usb_attached;	\/\/ Attached to USB$/;"	p
+usb_attached	usbf_utmi_ls.v	/^output		usb_attached;	\/\/ Attached to USB$/;"	p
+usb_attached	usbf_utmi_ls.v	/^reg		usb_attached, attached_set, attached_clr;$/;"	r
+usb_reset	usbf_pl.v	/^input		usb_reset;	\/\/ USB Reset$/;"	p
+usb_reset	usbf_rf.v	/^input		usb_reset;$/;"	p
+usb_reset	usbf_top.v	/^wire		usb_reset;	\/\/ USB Reset$/;"	w
+usb_reset	usbf_utmi_if.v	/^output		usb_reset;	\/\/ USB Reset$/;"	p
+usb_reset	usbf_utmi_ls.v	/^output		usb_reset;	\/\/ USB Reset$/;"	p
+usb_reset	usbf_utmi_ls.v	/^reg		usb_reset, usb_reset_d;$/;"	r
+usb_reset_r	usbf_rf.v	/^reg		usb_reset_r;$/;"	r
+usb_suspend	usbf_pl.v	/^input		usb_suspend;	\/\/ USB Suspend$/;"	p
+usb_suspend	usbf_top.v	/^wire		usb_suspend;	\/\/ USB Sleep$/;"	w
+usb_suspend	usbf_utmi_if.v	/^output		usb_suspend;	\/\/ USB Suspend$/;"	p
+usb_suspend	usbf_utmi_ls.v	/^output		usb_suspend;	\/\/ USB Suspend$/;"	p
+usb_suspend	usbf_utmi_ls.v	/^reg		usb_suspend, suspend_set, suspend_clr;$/;"	r
+usb_vbus	usbf_utmi_if.v	/^input		usb_vbus;$/;"	p
+usb_vbus	usbf_utmi_ls.v	/^input		usb_vbus;$/;"	p
+usb_vbus_pad_i	usbf_top.v	/^input		usb_vbus_pad_i;$/;"	p
+usbf_crc16	usbf_crc16.v	/^module usbf_crc16(crc_in, din, crc_out);$/;"	m
+usbf_crc5	usbf_crc5.v	/^module usbf_crc5(crc_in, din, crc_out);$/;"	m
+usbf_ep_rf	usbf_ep_rf.v	/^module usbf_ep_rf(clk, wclk, rst,$/;"	m
+usbf_ep_rf_dummy	usbf_ep_rf_dummy.v	/^module usbf_ep_rf_dummy($/;"	m
+usbf_idma	usbf_idma.v	/^module usbf_idma(	clk, rst,$/;"	m
+usbf_mem_arb	usbf_mem_arb.v	/^module usbf_mem_arb(	phy_clk, wclk, rst,$/;"	m
+usbf_pa	usbf_pa.v	/^module usbf_pa(	clk, rst,$/;"	m
+usbf_pd	usbf_pd.v	/^module usbf_pd(	clk, rst,$/;"	m
+usbf_pe	usbf_pe.v	/^module usbf_pe(	clk, rst,$/;"	m
+usbf_pl	usbf_pl.v	/^module usbf_pl(	clk, rst,$/;"	m
+usbf_rf	usbf_rf.v	/^module usbf_rf(	clk, wclk, rst,$/;"	m
+usbf_top	usbf_top.v	/^module usbf_top(\/\/ WISHBONE Interface$/;"	m
+usbf_utmi_if	usbf_utmi_if.v	/^module usbf_utmi_if( \/\/ UTMI Interface (EXTERNAL)$/;"	m
+usbf_utmi_ls	usbf_utmi_ls.v	/^module usbf_utmi_ls( clk, rst,$/;"	m
+usbf_wb	usbf_wb.v	/^module usbf_wb(	\/\/ WISHBONE Interface$/;"	m
+utmi_vend_ctrl	usbf_rf.v	/^output	[3:0]	utmi_vend_ctrl;$/;"	p
+utmi_vend_ctrl	usbf_rf.v	/^reg	[3:0]	utmi_vend_ctrl;$/;"	r
+utmi_vend_ctrl_r	usbf_rf.v	/^reg	[3:0]	utmi_vend_ctrl_r;$/;"	r
+utmi_vend_stat	usbf_rf.v	/^input	[7:0]	utmi_vend_stat;	\/\/ UTMI Vendor C\/S bus$/;"	p
+utmi_vend_stat_r	usbf_rf.v	/^reg	[7:0]	utmi_vend_stat_r;$/;"	r
+utmi_vend_wr	usbf_rf.v	/^output		utmi_vend_wr;$/;"	p
+utmi_vend_wr	usbf_rf.v	/^reg		utmi_vend_wr;$/;"	r
+utmi_vend_wr_r	usbf_rf.v	/^reg		utmi_vend_wr_r;$/;"	r
+wack	usbf_mem_arb.v	/^output		wack;$/;"	p
+wack_r	usbf_mem_arb.v	/^reg		wack_r;$/;"	r
+wadr	usbf_mem_arb.v	/^input	[SSRAM_HADR:0]	wadr;$/;"	p
+wb2ma_d	usbf_top.v	/^wire	[31:0]	wb2ma_d;$/;"	w
+wb2rf_d	usbf_top.v	/^wire	[31:0]	wb2rf_d;$/;"	w
+wb_ack_d	usbf_wb.v	/^reg		wb_ack_d, wb_ack_s1, wb_ack_s1a, wb_ack_s2;$/;"	r
+wb_ack_o	usbf_top.v	/^output		wb_ack_o;$/;"	p
+wb_ack_o	usbf_wb.v	/^output		wb_ack_o;$/;"	p
+wb_ack_o	usbf_wb.v	/^reg		wb_ack_o;$/;"	r
+wb_addr_i	usbf_top.v	/^input	[`USBF_UFC_HADR:0]	wb_addr_i;$/;"	p
+wb_addr_i	usbf_wb.v	/^input	[`USBF_UFC_HADR:0]	wb_addr_i;$/;"	p
+wb_clk	usbf_wb.v	/^input		wb_clk, phy_clk;$/;"	p
+wb_cyc_i	usbf_top.v	/^input		wb_cyc_i;$/;"	p
+wb_cyc_i	usbf_wb.v	/^input		wb_cyc_i;$/;"	p
+wb_data_i	usbf_top.v	/^input	[31:0]	wb_data_i;$/;"	p
+wb_data_i	usbf_wb.v	/^input	[31:0]	wb_data_i;$/;"	p
+wb_data_o	usbf_top.v	/^output	[31:0]	wb_data_o;$/;"	p
+wb_data_o	usbf_wb.v	/^output	[31:0]	wb_data_o;$/;"	p
+wb_data_o	usbf_wb.v	/^reg	[31:0]	wb_data_o;$/;"	r
+wb_req_s1	usbf_wb.v	/^reg		wb_req_s1;$/;"	r
+wb_stb_i	usbf_top.v	/^input		wb_stb_i;$/;"	p
+wb_stb_i	usbf_wb.v	/^input		wb_stb_i;$/;"	p
+wb_we_i	usbf_top.v	/^input		wb_we_i;$/;"	p
+wb_we_i	usbf_wb.v	/^input		wb_we_i;$/;"	p
+wdin	usbf_mem_arb.v	/^input	[31:0]	wdin;$/;"	p
+wdout	usbf_mem_arb.v	/^output	[31:0]	wdout;$/;"	p
+we	usbf_ep_rf.v	/^input		we;$/;"	p
+we	usbf_ep_rf_dummy.v	/^input		we;$/;"	p
+we	usbf_rf.v	/^input		we;$/;"	p
+we0	usbf_ep_rf.v	/^wire		we0, we1, we2, we3;$/;"	w
+word_done	usbf_idma.v	/^reg		word_done;		\/\/ Indicates that a word has been$/;"	r
+word_done_r	usbf_idma.v	/^reg		word_done_r;$/;"	r
+wr_done	usbf_idma.v	/^reg		wr_done;$/;"	r
+wr_done_r	usbf_idma.v	/^reg		wr_done_r;$/;"	r
+wr_last	usbf_idma.v	/^reg		wr_last;$/;"	r
+wr_last_en	usbf_idma.v	/^reg		wr_last_en;$/;"	r
+wreq	usbf_mem_arb.v	/^input		wreq;$/;"	p
+wsel	usbf_mem_arb.v	/^wire		wsel;$/;"	w
+wwe	usbf_mem_arb.v	/^input		wwe;$/;"	p
+zero_length_r	usbf_pa.v	/^reg		zero_length_r;$/;"	r

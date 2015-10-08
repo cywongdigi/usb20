@@ -1,0 +1,1284 @@
+*** Message Type: info ***
+When: Fri Aug 07 13:44:37 MYT 2015
+SimVision started.
+Version: TOOL:  simvision       14.10-s004
+User: chengyee.wong
+Host: symcentral
+Platform: Linux/x86_64/2.6.18-238.el5
+Started: Fri Aug 07 13:44:37 MYT 2015
+Command: /opt/cadence/INCISIV141/tools.lnx86/simvision/bin/simvision.exe waves.shm
+Work Directory: /opt/workspace/chengyee.wong/PROJECTS/usb20/run
+ 
+*** Message Type: info ***
+When: Fri Aug 07 13:44:39 MYT 2015
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Aug 07 13:44:43 MYT 2015
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Fri Aug 07 13:44:44 MYT 2015
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Aug 12 17:14:16 MYT 2015
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Aug 12 17:14:20 MYT 2015
+Connect to Simulator
+      Design: worklib.USBF_TOP_TB:module
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL:   ippe    14.10-s004
+        User: chengyee.wong
+        Host: symcentral
+Time Started: Wed Aug 12 17:14:20 MYT 2015
+  Process ID: 3291
+   Directory: /opt/workspace/chengyee.wong/PROJECTS/usb20/run
+     Command: /opt/cadence/INCISIV141/tools.lnx86/simvision/bin/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /tmp/cds.lib.6795 -snapshot worklib.USBF_TOP_TB:module
+
+ 
+*** Message Type: info ***
+When: Wed Aug 12 17:14:23 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 10:22:38 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 10:58:58 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:12:04 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:13:57 MYT 2015
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:14:04 MYT 2015
+Create source window: "Source Browser 2"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:14:57 MYT 2015
+Delete source window: "Source Browser 2"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:15:11 MYT 2015
+Create source window: "Source Browser 3"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:31:07 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:32:01 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:33:04 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:34:48 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:39:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:44:17 MYT 2015
+Delete source window: "Source Browser 3"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 11:44:25 MYT 2015
+Create source window: "Source Browser 4"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 13:09:45 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 13:11:59 MYT 2015
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 13:12:03 MYT 2015
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 13 13:38:11 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 14:22:15 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 14:22:49 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 14:25:13 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:02:40 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:16:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:18:46 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:19:58 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:38:31 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:40:21 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:44:58 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:46:12 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:49:08 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:50:05 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:55:27 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:56:04 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 15:58:35 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:01:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:04:00 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:17:21 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:19:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:24:38 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:46:26 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 16:53:27 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:03:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:14:10 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:18:23 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:26:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:54:21 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 17:59:05 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:02:13 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:09:23 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:12:01 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:14:08 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:23:20 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Thu Aug 13 18:25:07 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 10:16:14 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 10:46:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 10:49:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 11:22:36 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 11:24:03 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 11:27:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 11:39:44 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 12:57:04 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:00:22 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:02:05 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:03:33 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:06:03 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:10:27 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:11:24 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:12:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:18:04 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:25:16 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:40:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:50:39 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:53:08 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:54:38 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 13:55:38 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 14:26:56 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 14:31:09 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Fri Aug 14 14:39:14 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 10:39:41 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:04:42 MYT 2015
+Delete source window: "Source Browser 4"
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:05:19 MYT 2015
+Create source window: "Source Browser 5"
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:24:45 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:27:06 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:48:20 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 14:52:43 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:00:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:12:00 MYT 2015
+Create waveform window: "Waveform 2"
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:13:33 MYT 2015
+can't find node "1050" in ::tree1
+    (object "::replicator::parts31" method "::replicator::Parts::run" )
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "replicator::capture" line 1)
+    invoked from within
+"replicator::capture $this  -as SV_WAVEFORM -items $_dragsel  -progresscommand [_getProgressCommand configure "Capturing signals..."]"
+    (object "::.waveWindow0.work.user.waveset" method "::WaveSet::_drag" body line 33)
+    invoked from within
+"::.waveWindow0.work.user.waveset _drag SV_WAVEFORM"
+    (in namespace inscope "::WaveSet" script line 1)
+    invoked from within
+"namespace inscope ::WaveSet {::.waveWindow0.work.user.waveset _drag SV_WAVEFORM}"
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:22:36 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:26:12 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:27:43 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 8 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:27:43 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 8 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:27:43 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 8 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:33:41 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:34:27 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 19 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:34:27 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 19 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 15:34:27 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 19 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:39:40 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:42:01 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:57:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 15:59:35 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:01:57 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:03:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:17:31 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:18:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:19:05 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:19:35 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:28:37 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 42 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:28:37 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 42 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:28:37 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 42 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signalbox")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:29:06 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 43 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:29:06 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 43 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:29:08 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 43 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:42:51 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:43:52 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 57 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:43:52 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 57 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:43:52 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 57 in tree "::tree2" attached to signalbox ".waveWindow1.work.user.waveset.signalbox")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:46:15 MYT 2015
+can't find replicator module for "1"
+Object couldn't be classified.  Make sure that
+"1" is a valid object name or a tag
+for a replicator module.  If "1"
+is an object other than a Tk widget or an [incr Tcl] object, make sure
+that classification code has been defined via replicator::classification.
+can't find replicator module for "1"
+Object couldn't be classified.  Make sure that
+"1" is a valid object name or a tag
+for a replicator module.  If "1"
+is an object other than a Tk widget or an [incr Tcl] object, make sure
+that classification code has been defined via replicator::classification.
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "::replicator::capture" line 1)
+    invoked from within
+"::replicator::capture 1"
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "replicator::capture" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "replicator::capture" line 1)
+    invoked from within
+"replicator::capture $this  -as SV_WAVEFORM -items $undoids  -progresscommand [_getProgressCommand configure "Saving signals..."]"
+    (object "::.waveWindow1.work.user.waveset" method "::WaveSet::delete" body line 31)
+    invoked from within
+"$itk_component(waveset) delete "" $action $undo"
+    (object "::.waveWindow1" method "::WaveWindow::_doDelete" body line 26)
+    invoked from within
+"::.waveWindow1 _doDelete"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow1 _doDelete}"
+    invoked from within
+"$menu invoke $index"
+    (object "::.waveWindow1" method "::cwidgets::ToolWindow::_menu_invoke" body line 21)
+    invoked from within
+"chain $tagOrId"
+    (object "::.waveWindow1" method "::SVToolWindow::_menu_invoke" body line 15)
+    invoked from within
+"::.waveWindow1 _menu_invoke Edit>Delete"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow1 _menu_invoke Edit>Delete}"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:47:03 MYT 2015
+Delete waveform window: "Waveform 2"
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:47:31 MYT 2015
+Create waveform window: "Waveform 3"
+ 
+*** Message Type: info ***
+When: Mon Aug 17 16:49:17 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:22 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 74 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:22 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 74 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:22 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 74 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:24 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 75 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:24 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 75 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:26 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 75 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 76 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 76 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 16:52:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 76 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:23:10 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Mon Aug 17 17:24:13 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 78 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 17:24:13 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 78 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Mon Aug 17 17:24:13 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 78 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:29:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:30:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:34:21 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:35:19 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:35:48 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:36:54 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Mon Aug 17 17:37:52 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:26:00 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:28:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 87 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:28:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 87 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:28:31 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 87 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:31:40 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:32:03 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:33:12 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:33:38 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:34:24 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:06 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 89 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:06 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 89 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:06 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 89 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:08 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 90 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signallist")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:08 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 90 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signaldata")
+ 
+*** Message Type: error ***
+When: Wed Aug 19 10:35:10 MYT 2015
+"1" is not a stylepen object
+    (while examining -pen option at node 90 in tree "::tree3" attached to signalbox ".waveWindow2.work.user.waveset.signalbox")
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:38:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:39:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:40:22 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 10:41:00 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:34:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:34:43 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:35:11 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:35:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:40:57 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:41:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:41:50 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 11:42:14 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:26:28 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:30:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:31:43 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:32:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:34:46 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:36:21 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 13:38:09 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 14:06:27 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 14:08:02 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 14:47:49 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:08:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:11:00 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:13:35 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:14:09 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:15:45 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:17:45 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:18:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:19:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:20:30 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:22:47 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:23:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:24:25 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:27:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:33:50 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:37:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:42:52 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:43:15 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:46:57 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 15:48:30 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:06:24 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:09:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:09:42 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:15:59 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:55:15 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 16:56:26 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:00:56 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:03:00 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:05:57 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:06:33 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:06:50 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:07:18 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:08:10 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:18:28 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:18:55 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:19:29 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:20:10 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:23:44 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:24:35 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:25:01 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:25:33 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:26:14 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:27:14 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:27:53 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: error ***
+When: Wed Aug 19 17:38:20 MYT 2015
+don't know how to insert DAC handle @public@2a72
+    while executing
+"error "don't know how to insert DAC handle $handle""
+    ("dac" arm line 7)
+    invoked from within
+"switch -- [util::entity type $handle -simple] {
+          group - overlay {
+          set group $handle
+              set gparents [$handle get -parents]
+            # TODO: why are we ..."
+    (object "::.waveWindow2.work.user.waveset" method "::WaveSet::_insertFromBranch" body line 7)
+    invoked from within
+"::.waveWindow2.work.user.waveset _insertFromBranch ::tree3 {97 -at 0} @public@2a72"
+    (in namespace inscope "::WaveSet" script line 1)
+    invoked from within
+"namespace inscope ::WaveSet {::.waveWindow2.work.user.waveset _insertFromBranch} ::tree3 {97 -at 0} @public@2a72"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $insertcommand  [list $_tree "$_node -at $info(at)" $info(with)]"
+    ("!replace" arm line 23)
+    invoked from within
+"switch -- $info(event) {
+        !insert {
+            #
+            # Signals or Groups have been added to the group.  Add them
+            # to the ..."
+    (object "::groupBranch9" method "::GroupBranch::_handleGroup" body line 13)
+    invoked from within
+"::groupBranch9 _handleGroup event !replace at 0 with @public@2a72"
+    (in namespace inscope "::GroupBranch" script line 1)
+    invoked from within
+"namespace inscope ::GroupBranch {::groupBranch9 _handleGroup} event !replace at 0 with @public@2a72"
+ 
+*** Message Type: error ***
+When: Wed Aug 19 17:38:20 MYT 2015
+don't know how to insert DAC handle @public@2a60
+    while executing
+"error "don't know how to insert DAC handle $handle""
+    ("dac" arm line 7)
+    invoked from within
+"switch -- [util::entity type $handle -simple] {
+          group - overlay {
+          set group $handle
+              set gparents [$handle get -parents]
+            # TODO: why are we ..."
+    (object "::.waveWindow2.work.user.waveset" method "::WaveSet::_insertFromBranch" body line 7)
+    invoked from within
+"::.waveWindow2.work.user.waveset _insertFromBranch ::tree3 {107 -at 0} @public@2a60"
+    (in namespace inscope "::WaveSet" script line 1)
+    invoked from within
+"namespace inscope ::WaveSet {::.waveWindow2.work.user.waveset _insertFromBranch} ::tree3 {107 -at 0} @public@2a60"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $insertcommand  [list $_tree "$_node -at $info(at)" $info(with)]"
+    ("!replace" arm line 23)
+    invoked from within
+"switch -- $info(event) {
+        !insert {
+            #
+            # Signals or Groups have been added to the group.  Add them
+            # to the ..."
+    (object "::groupBranch13" method "::GroupBranch::_handleGroup" body line 13)
+    invoked from within
+"::groupBranch13 _handleGroup event !replace at 0 with @public@2a60"
+    (in namespace inscope "::GroupBranch" script line 1)
+    invoked from within
+"namespace inscope ::GroupBranch {::groupBranch13 _handleGroup} event !replace at 0 with @public@2a60"
+ 
+*** Message Type: error ***
+When: Wed Aug 19 17:38:20 MYT 2015
+don't know how to insert DAC handle @public@2bf1
+    while executing
+"error "don't know how to insert DAC handle $handle""
+    ("dac" arm line 7)
+    invoked from within
+"switch -- [util::entity type $handle -simple] {
+          group - overlay {
+          set group $handle
+              set gparents [$handle get -parents]
+            # TODO: why are we ..."
+    (object "::.waveWindow2.work.user.waveset" method "::WaveSet::_insertFromBranch" body line 7)
+    invoked from within
+"::.waveWindow2.work.user.waveset _insertFromBranch ::tree3 {114 -at 0} @public@2bf1"
+    (in namespace inscope "::WaveSet" script line 1)
+    invoked from within
+"namespace inscope ::WaveSet {::.waveWindow2.work.user.waveset _insertFromBranch} ::tree3 {114 -at 0} @public@2bf1"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $insertcommand  [list $_tree "$_node -at $info(at)" $info(with)]"
+    ("!replace" arm line 23)
+    invoked from within
+"switch -- $info(event) {
+        !insert {
+            #
+            # Signals or Groups have been added to the group.  Add them
+            # to the ..."
+    (object "::groupBranch14" method "::GroupBranch::_handleGroup" body line 13)
+    invoked from within
+"::groupBranch14 _handleGroup event !replace at 0 with @public@2bf1"
+    (in namespace inscope "::GroupBranch" script line 1)
+    invoked from within
+"namespace inscope ::GroupBranch {::groupBranch14 _handleGroup} event !replace at 0 with @public@2bf1"
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:38:20 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:40:36 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:47:53 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:50:58 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:51:24 MYT 2015
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Wed Aug 19 17:53:02 MYT 2015
+Delete waveform window: "Waveform 3"
+ 
+*** Message Type: error ***
+When: Wed Aug 19 20:22:17 MYT 2015
+Incisive ppe Crashed:
+      Design: worklib.USBF_TOP_TB:module
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL:   ippe    14.10-s004
+        User: chengyee.wong
+        Host: symcentral
+Time Started: Wed Aug 19 17:51:23 MYT 2015
+  Process ID: 15195
+   Directory: /opt/workspace/chengyee.wong/PROJECTS/usb20/run
+     Command: /opt/cadence/INCISIV141/tools.lnx86/simvision/bin/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /tmp/cds.lib.6795 -snapshot worklib.USBF_TOP_TB:module
+      Design: worklib.USBF_TOP_TB:module
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL:  ippe    14.10-s004
+        User: chengyee.wong
+        Host: symcentral
+Time Started: Wed Aug 19 17:51:23 MYT 2015
+  Process ID: 15195
+   Directory: /opt/workspace/chengyee.wong/PROJECTS/usb20/run
+     Command: /opt/cadence/INCISIV141/tools.lnx86/simvision/bin/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /tmp/cds.lib.6795 -snapshot worklib.USBF_TOP_TB:module
+
+Outstanding STRAP Requests:
+        strap::get s USBF_TOP_TB.USBH_U.u_sie -tr -fi f20
+ 
+*** Message Type: info ***
+When: Thu Aug 20 10:16:53 MYT 2015
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Thu Aug 20 16:31:49 MYT 2015
+invalid command name "::.waveWindow0"
+    while executing
+"::.waveWindow0 progress configure -message {Capturing signals...} -percent 70300"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 progress} configure -message {Capturing signals...} -percent 70300"
+    invoked from within
+"replicator::progress"
+    (procedure "::replicator::Loader::bodies5::pattern" line 50)
+    invoked from within
+"pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data name {waves::USBF_TOP_TB.USBF_TOP_U.u1.u3.state[9:0]}
+    data expression {}
+    data exprHa..."
+    (procedure "replicator::replicate" line 1)
+    invoked from within
+"replicator::replicate $data -new \#same"
+    (object "::.srcBrowser4" method "::SrcBrowser::_drop" body line 18)
+    invoked from within
+"::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data na..."
+    (in namespace inscope "::SrcBrowser" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser {::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNA..."
+ 
+*** Message Type: error ***
+When: Thu Aug 20 16:31:52 MYT 2015
+invalid command name "::.waveWindow0"
+    while executing
+"::.waveWindow0 progress configure -message {Capturing signals...} -percent 70400"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 progress} configure -message {Capturing signals...} -percent 70400"
+    invoked from within
+"replicator::progress"
+    (procedure "::replicator::Loader::bodies5::pattern" line 50)
+    invoked from within
+"pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data name {waves::USBF_TOP_TB.USBF_TOP_U.u1.u3.state[9:0]}
+    data expression {}
+    data exprHa..."
+    (procedure "replicator::replicate" line 1)
+    invoked from within
+"replicator::replicate $data -new \#same"
+    (object "::.srcBrowser4" method "::SrcBrowser::_drop" body line 18)
+    invoked from within
+"::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data na..."
+    (in namespace inscope "::SrcBrowser" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser {::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNA..."
+ 
+*** Message Type: error ***
+When: Thu Aug 20 16:31:58 MYT 2015
+invalid command name "::.waveWindow0"
+    while executing
+"::.waveWindow0 progress configure -message {Capturing signals...} -percent 70500"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 progress} configure -message {Capturing signals...} -percent 70500"
+    invoked from within
+"replicator::progress"
+    (procedure "::replicator::Loader::bodies5::pattern" line 50)
+    invoked from within
+"pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data name {waves::USBF_TOP_TB.USBF_TOP_U.u1.u3.state[9:0]}
+    data expression {}
+    data exprHa..."
+    (procedure "replicator::replicate" line 1)
+    invoked from within
+"replicator::replicate $data -new \#same"
+    (object "::.srcBrowser4" method "::SrcBrowser::_drop" body line 18)
+    invoked from within
+"::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNAL v1.0 {
+  overall {
+    data na..."
+    (in namespace inscope "::SrcBrowser" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser {::.srcBrowser4 _drop .srcBrowser4.work.user.srcfrm.srcframe.src [::dnd::ConvertToBinary {
+pattern @public@d4b SV_SIGNA..."
+ 
+*** Message Type: info ***
+When: Thu Aug 20 16:32:21 MYT 2015
+SimVision Exit.
+ 

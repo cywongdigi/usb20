@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "usb20.dtd">
+<PRJ>
+  <Project_Information>
+    <Use_Relative_Dir>1</Use_Relative_Dir>
+    <Relative_to_Project_File>1</Relative_to_Project_File>
+    <Include_Sub_Dir>1</Include_Sub_Dir>
+    <Create_Tagfile>0</Create_Tagfile>
+    <Filter/>
+    <CTags_Support>0</CTags_Support>
+    <Word_File/>
+    <Project_Directory>/opt/workspace/chengyee.wong/PROJECTS/usb20/run</Project_Directory>
+    <Tag_File/>
+  </Project_Information>
+  <Project_ID>
+    <Signature>UE Proj: v.1</Signature>
+  </Project_ID>
+  <Files>
+    <File>../rtl/usbcore/usbf_pa.v</File>
+    <File>../rtl/usbcore/usbf_ep_rf.v</File>
+    <File>../rtl/usbcore/usbf_ep_rf_dummy.v</File>
+    <File>../rtl/usbcore/usbf_idma.v</File>
+    <File>../rtl/usbcore/usbf_top.v</File>
+    <File>../rtl/usbcore/usbf_crc16.v</File>
+    <File>../rtl/usbcore/usbf_defines.v</File>
+    <File>../rtl/usbcore/usbf_wb.v</File>
+    <File>../rtl/usbcore/usbf_mem_arb.v</File>
+    <File>../rtl/usbcore/usbf_ssram.v</File>
+    <File>../rtl/usbcore/usbf_rf.v</File>
+    <File>../rtl/usbcore/usbf_pe.v</File>
+    <File>../rtl/usbcore/usbf_utmi_ls.v</File>
+    <File>../rtl/usbcore/usbf_pl.v</File>
+    <File>../rtl/usbcore/usbf_wb_master.v</File>
+    <File>../rtl/usbcore/usbf_ctrl.v</File>
+    <File>../tb/usbf_top_tb.v</File>
+    <File>../rtl/usbcore/usbf_rom.v</File>
+    <File>../rtl/usbcore/usbf_crc5.v</File>
+    <File>../rtl/usbcore/usbf_pd.v</File>
+    <File>../rtl/usbcore/usbf_utmi_if.v</File>
+  </Files>
+</PRJ>

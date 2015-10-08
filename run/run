@@ -1,0 +1,3 @@
+ncvlog -incdir ../tb -incdir ../rtl/usbhost -incdir ../rtl/usbcore -incdir ../rtl/wb_master -f ../flist/rtls.f
+ncelab -access rwc USBF_TOP_TB -timescale 1ns/1ps -NOSPECIFY -NOTIMINGCHECK
+ncsim  -input dump.tcl USBF_TOP_TB
